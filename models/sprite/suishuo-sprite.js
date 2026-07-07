@@ -1015,8 +1015,8 @@ var SPRITE_MODEL_DATA = {};
     // 生成模型数据
     var data = generateSpriteSheet();
 
-    SPRITE_MODEL_DATA['violet'] = {
-        name: '紫罗兰',
+    SPRITE_MODEL_DATA['suishuo'] = {
+        name: '随说',
         defaultAction: 'idle',
         textureBase64: data.textureDataUrl,
         spriteSheet: data.spriteSheet,

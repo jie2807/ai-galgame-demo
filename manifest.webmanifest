@@ -1,7 +1,7 @@
 {
-  "name": "紫罗兰永恒花园",
-  "short_name": "紫罗兰花园",
-  "description": "AI 驱动的视觉小说互动游戏",
+  "name": "随说：千界",
+  "short_name": "随说",
+  "description": "AI 驱动的互动视觉小说平台，一句话生成你的专属故事世界",
   "start_url": "./index.html",
   "display": "standalone",
   "orientation": "landscape",
