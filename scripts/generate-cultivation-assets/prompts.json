@@ -1,0 +1,65 @@
+{
+  "_style_suffix": "solid pure green screen background, chroma key #00FF00, flat even green background, no gradient, no shadow on background, full body character portrait, standing straight, facing forward, arms relaxed, centered composition, semi-realistic xianxia style, traditional Chinese immortal cultivation theme, ethereal palette, flowing robes, detailed character design, high quality, no text, no border, no frame",
+  "npcs": {
+    "suwanqing": {
+      "name": "苏婉清",
+      "prompt": "a female sword immortal elder in her apparent late twenties, snow-white hair flowing down to her waist, ice-blue eyes cold and ethereal, pristine white sword robe with silver embroidery, a slender immortal sword named Frost Snow hanging at her waist, noble and aloof aura like a nine-heaven goddess, tall and slender figure, calm detached expression, sword cultivator bearing"
+    },
+    "linyueyao": {
+      "name": "林月瑶",
+      "prompt": "a female pill cultivator in her early twenties, chestnut-brown long hair tied in a double-ring bun, apricot eyes with peach-blossom cheeks and faint dimples, light purple alchemist robe emitting faint herbal fragrance, plump and gentle figure, warm friendly smile, holding a small jade pill bottle, caring elder-sister demeanor"
+    },
+    "yelingxi": {
+      "name": "叶灵溪",
+      "prompt": "a petite female talisman cultivator around sixteen, black long hair in twin tails, large clever mischievous eyes, bright yellow talisman robe with cuffs stained with cinnabar ink, small and slender figure, playful smug expression, holding a yellow paper talisman, lively teenage girl stance"
+    },
+    "jiwushuang": {
+      "name": "姬无双",
+      "prompt": "a seductive female demon saintess in her early twenties, wine-red wavy long hair cascading like a waterfall, phoenix eyes with upturned corners and crimson lips, black-and-red interwoven demon robe revealing collarbone with glowing demon patterns, curvaceous hot figure, alluring dangerous smile, leaning slightly with magical aura, demoness bearing"
+    },
+    "bailingyin": {
+      "name": "白灵音",
+      "prompt": "a holy female buddhist saintess in her early twenties, golden long hair flowing to her waist, emerald-green eyes with exotic heritage, white buddhist robe with a glowing lotus mark on her forehead, sacred pure aura with faint fragrance, balanced graceful figure, gentle compassionate expression with hands slightly together in prayer, serene saintess demeanor"
+    },
+    "jiuwei": {
+      "name": "九尾",
+      "prompt": "a petite female fox demon princess looking around fourteen, silver-white long hair flowing to her waist, hidden fox ears that peek out when excited, amber slit-pupil eyes, pink demon robe with soft fluffy trim, small slender figure, innocent curious expression with a hint of cunning, holding a candied hawthorn stick, cute fox-girl stance"
+    },
+    "guqinghan": {
+      "name": "顾清寒",
+      "prompt": "a cold female sword prodigy in her early twenties, ink-black long hair tied in a high ponytail, phoenix eyes cold as frost, dark-blue-black sword cultivator outfit with a sword named Cold Frost at her waist, cold and striking facial features, tall toned figure, aloof arrogant expression with one hand on sword hilt, proud swordswoman bearing"
+    },
+    "murongwaner": {
+      "name": "慕容婉儿",
+      "prompt": "a proud young female noble alchemist around eighteen, light golden wavy long hair, amber eyes, yellow-gold woven silk dress with jeweled hairpins and a folding fan, delicate porcelain-doll features, slender curvy figure, haughty raised-chin expression with fan half-open, aristocratic young lady demeanor"
+    },
+    "fengqiwu": {
+      "name": "凤栖梧",
+      "prompt": "a domineering female phoenix demon princess in her early twenties, fire-red long hair cascading like a waterfall, golden-red slit-pupil eyes, a glowing phoenix mark on her forehead, crimson-and-gold demon robe with phoenix phantom aura flickering behind her, gorgeous and imposing figure, proud contemptuous expression, phoenix princess bearing"
+    },
+    "suwen": {
+      "name": "素问",
+      "prompt": "a gentle female pill master elder in her apparent thirties, light green long hair flowing to her waist, warm soft apricot eyes, pale cyan pill master robe emitting herbal fragrance of hundred herbs, graceful plump figure with motherly warmth, kind tender smile, holding a small jade medicine mortar, wise elder demeanor"
+    },
+    "xiaoyichen": {
+      "name": "萧逸尘",
+      "prompt": "an arrogant male sword prodigy in his early twenties, white robes with hair tied up neatly, sword eyebrows and starry eyes, handsome cold-arrogant features, an immortal sword named Tiangang at his waist, tall upright figure, haughty disdainful expression with one hand resting on sword hilt, genius swordsman bearing"
+    },
+    "situhao": {
+      "name": "司徒浩",
+      "prompt": "a sinister young male noble heir around twenty, brocade silk robes with a jade belt, effeminate handsome face with sinister calculating eyes, holding a jade folding fan with hidden poison needles in the ribs, slender pale figure, cunning cruel smile, aristocratic scion bearing with fan half-covering face"
+    },
+    "mowuji": {
+      "name": "魔无极",
+      "prompt": "a domineering male demon young master in his mid-twenties, black hair draped over the shoulders, dark demon patterns spreading across half of his face, blood-red eyes, black-and-gold demon robe holding a massive demonic spear named World Destroyer, tall imposing figure with overwhelming aura, cruel arrogant expression, demon prince bearing"
+    },
+    "wangteng": {
+      "name": "王腾",
+      "prompt": "a self-important male rogue cultivator around twenty, plain coarse cloth robes with straw sandals, ordinary facial features with fanatic zealous eyes, holding a hand-written booklet titled Book of Heavenly Mandate, average figure with theatrical grand posture, delusional arrogant expression pretending to be the chosen one, comedic protagonist-wannabe stance"
+    },
+    "luqingyang": {
+      "name": "陆青阳",
+      "prompt": "a burly honest male outer-sect disciple around twenty, rough cloth daoist robe, square face with thick eyebrows and big eyes, honest warm smile, muscular tall figure carrying an oversized heavy iron sword on his back, friendly loyal demeanor with one hand raised in greeting, big-brother-next-door stance"
+    }
+  }
+}

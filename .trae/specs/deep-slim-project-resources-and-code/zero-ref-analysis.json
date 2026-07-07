@@ -1,0 +1,163 @@
+[
+  {
+    "name": "showCraftDetail",
+    "risk": "high",
+    "size": 2333,
+    "htmlStart": 688875,
+    "htmlEnd": 691208
+  },
+  {
+    "name": "showGachaCollection",
+    "risk": "low",
+    "size": 1645,
+    "htmlStart": 1512302,
+    "htmlEnd": 1513947
+  },
+  {
+    "name": "playPullVideo",
+    "risk": "medium",
+    "size": 1541,
+    "htmlStart": 1418439,
+    "htmlEnd": 1419980
+  },
+  {
+    "name": "initGachaState",
+    "risk": "low",
+    "size": 1115,
+    "htmlStart": 562279,
+    "htmlEnd": 563394
+  },
+  {
+    "name": "detectArrival",
+    "risk": "medium",
+    "size": 1089,
+    "htmlStart": 829506,
+    "htmlEnd": 830595
+  },
+  {
+    "name": "copyCustomScript",
+    "risk": "high",
+    "size": 809,
+    "htmlStart": 1256222,
+    "htmlEnd": 1257031
+  },
+  {
+    "name": "triggerImportDialog",
+    "risk": "medium",
+    "size": 716,
+    "htmlStart": 1189945,
+    "htmlEnd": 1190661
+  },
+  {
+    "name": "queryLorebook",
+    "risk": "low",
+    "size": 630,
+    "htmlStart": 700876,
+    "htmlEnd": 701506
+  },
+  {
+    "name": "changeLocation",
+    "risk": "medium",
+    "size": 464,
+    "htmlStart": 833715,
+    "htmlEnd": 834179
+  },
+  {
+    "name": "_loadDetailLive2DOrFallback",
+    "risk": "high",
+    "size": 385,
+    "htmlStart": 1470299,
+    "htmlEnd": 1470684
+  },
+  {
+    "name": "openTTSSettings",
+    "risk": "high",
+    "size": 381,
+    "htmlStart": 945416,
+    "htmlEnd": 945797
+  },
+  {
+    "name": "restoreGameState",
+    "risk": "high",
+    "size": 347,
+    "htmlStart": 813586,
+    "htmlEnd": 813933
+  },
+  {
+    "name": "getTTSVoiceId",
+    "risk": "high",
+    "size": 345,
+    "htmlStart": 935358,
+    "htmlEnd": 935703
+  },
+  {
+    "name": "updateLoreEntryNumbers",
+    "risk": "medium",
+    "size": 337,
+    "htmlStart": 1142215,
+    "htmlEnd": 1142552
+  },
+  {
+    "name": "resolveNpcId",
+    "risk": "high",
+    "size": 332,
+    "htmlStart": 702853,
+    "htmlEnd": 703185
+  },
+  {
+    "name": "navigateToPage",
+    "risk": "medium",
+    "size": 329,
+    "htmlStart": 2156369,
+    "htmlEnd": 2156698
+  },
+  {
+    "name": "getNPCRelationship",
+    "risk": "high",
+    "size": 240,
+    "htmlStart": 691494,
+    "htmlEnd": 691734
+  },
+  {
+    "name": "setPlayerProfile",
+    "risk": "medium",
+    "size": 213,
+    "htmlStart": 630607,
+    "htmlEnd": 630820
+  },
+  {
+    "name": "setNPCRelationship",
+    "risk": "high",
+    "size": 201,
+    "htmlStart": 691746,
+    "htmlEnd": 691947
+  },
+  {
+    "name": "getItemName",
+    "risk": "medium",
+    "size": 133,
+    "htmlStart": 662017,
+    "htmlEnd": 662150
+  },
+  {
+    "name": "showWarningToast",
+    "risk": "medium",
+    "size": 111,
+    "htmlStart": 860628,
+    "htmlEnd": 860739
+  },
+  {
+    "name": "openPortraitImageEditor",
+    "risk": "high",
+    "size": 102,
+    "htmlStart": 1116337,
+    "htmlEnd": 1116439
+  },
+  {
+    "name": "openLive2dSelector",
+    "risk": "high",
+    "size": 97,
+    "htmlStart": 1116451,
+    "htmlEnd": 1116548
+  }
+]

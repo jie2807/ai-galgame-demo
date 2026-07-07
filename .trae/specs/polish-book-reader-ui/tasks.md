@@ -1,0 +1,138 @@
+# Tasks
+
+- [x] Task 1: 新增阅读器正文区核心排版 CSS
+  - [x] SubTask 1.1: 在 `styles.css` 中为 `.reader-body` 添加样式（flex:1、overflow-y:auto、touch-action:pan-y、主题背景色 transition、scroll-behavior:smooth）
+  - [x] SubTask 1.2: 为 `.reader-content` 添加样式（max-width 竖屏 100%/横屏 900px、margin:0 auto、padding:32px 24px、transition max-width）
+  - [x] SubTask 1.3: 为 `.reader-book-title` 添加样式（text-align:center、font-size:clamp(1.5rem,4vw,2rem)、font-weight:700、margin:0 0 0.5em、theme color）
+  - [x] SubTask 1.4: 为 `.reader-chapter` 添加样式（margin-bottom:3em、padding-top:1em）
+  - [x] SubTask 1.5: 为 `.reader-chapter-title` 添加样式（text-align:center、font-size:clamp(1.15rem,3vw,1.4rem)、font-weight:600、margin:0 0 1.5em、theme color、letter-spacing:1px）
+  - [x] SubTask 1.6: 为 `.reader-paragraph` 添加样式（line-height:2、margin:0 0 1em、color:theme正文色、transition color/background）
+  - [x] SubTask 1.7: 为 `.reader-dialogue-line` 添加样式（padding-left:1em、border-left:2px solid theme-accent、margin:0 0 1em、color:theme对话色）
+  - [x] SubTask 1.8: 为 `.reader-epilogue` 添加样式（margin-top:3em、padding-top:2em、border-top:1px solid theme-border、text-align:center）
+  - [x] SubTask 1.9: 为 `.reader-epilogue-text` 添加样式（font-style:italic、opacity:0.7）
+  - [x] SubTask 1.10: 为 `.reader-the-end` 添加样式（margin-top:2em、text-align:center、font-size:1.5rem、font-weight:700、letter-spacing:4px、theme color）
+
+- [x] Task 2: 新增阅读器工具栏 CSS
+  - [x] SubTask 2.1: 为 `.reader-header` 添加样式（position:sticky top:0、flex、align-items:center、padding:8px 16px、backdrop-filter:blur(12px)、theme-bg-glass、z-index:10、border-bottom、transition transform/opacity）
+  - [x] SubTask 2.2: 为 `.reader-back-btn` 添加样式（display:flex、align-items:center、gap:4px、min-height:44px、padding:8px 12px、background:transparent、border:none、color:theme、cursor:pointer、border-radius:8px、hover/active 反馈）
+  - [x] SubTask 2.3: 为 `.reader-title` 添加样式（flex:1、text-align:center、font-size:0.95rem、font-weight:500、white-space:nowrap、overflow:hidden、text-overflow:ellipsis、padding:0 8px、theme color）
+  - [x] SubTask 2.4: 为 `.reader-header-actions` 添加样式（display:flex、align-items:center、gap:4px）
+  - [x] SubTask 2.5: 为 `.reader-header-btn` 添加样式（min-width:44px、min-height:44px、display:flex、align-items:center、justify-content:center、background:transparent、border:none、color:theme、cursor:pointer、border-radius:8px、hover/active 反馈）
+  - [x] SubTask 2.6: 为 `.reader-footer` 添加样式（position:sticky bottom:0、flex-direction:column、padding:8px 16px、backdrop-filter:blur(12px)、theme-bg-glass、border-top、transition transform/opacity）
+  - [x] SubTask 2.7: 为 `.reader-footer-nav` 添加样式（display:flex、justify-content:space-around、align-items:center、margin-bottom:8px）
+  - [x] SubTask 2.8: 为 `.reader-nav-btn` 添加样式（display:flex、flex-direction:column、align-items:center、gap:2px、min-height:44px、padding:6px 16px、background:transparent、border:none、color:theme、cursor:pointer、font-size:0.75rem、hover/active 反馈）
+  - [x] SubTask 2.9: 为 `.reader-progress-bar-wrapper` 添加样式（display:flex、align-items:center、gap:8px）
+  - [x] SubTask 2.10: 为 `.reader-progress-bar` 添加样式（flex:1、height:3px、background:theme-track、border-radius:2px、overflow:hidden、cursor:pointer）
+  - [x] SubTask 2.11: 为 `.reader-progress-fill` 添加样式（height:100%、background:theme-accent、border-radius:2px、transition width 0.2s）
+  - [x] SubTask 2.12: 为 `.reader-progress-text` 添加样式（font-size:0.75rem、color:theme-secondary、min-width:48px、text-align:right）
+
+- [x] Task 3: 新增横竖屏 CSS
+  - [x] SubTask 3.1: 为 `.reader-orientation-horizontal .reader-content` 添加样式（max-width:1100px、column-count:2、column-gap:48px、column-rule:1px solid theme-border-light）
+  - [x] SubTask 3.2: 为 `.reader-orientation-horizontal .reader-chapter` 添加样式（break-inside:avoid-column）
+  - [x] SubTask 3.3: 添加 @media (max-width:600px) 降级规则（横屏模式下 column-count:1，单栏显示）
+  - [x] SubTask 3.4: 确认竖屏（默认）下 `.reader-content` max-width:100%、单栏、padding:32px 24px
+
+- [x] Task 4: 新增四套阅读主题 CSS
+  - [x] SubTask 4.1: 定义 CSS 变量或直接规则，`.book-reader-page.theme-parchment` / `.reader-body.theme-parchment`：background:#F5E6D3、color:#3D2415
+  - [x] SubTask 4.2: `.theme-day`：background:#FFFFFF、color:#333333
+  - [x] SubTask 4.3: `.theme-eye`：background:#C7EDCC、color:#2D5F2D
+  - [x] SubTask 4.4: `.theme-night`：background:#1A1A1A、color:#B0B0B0
+  - [x] SubTask 4.5: 每套主题覆盖工具栏毛玻璃背景色和边框色（parchment:rgba(245,230,211,0.85) / day:rgba(255,255,255,0.85) / eye:rgba(199,237,204,0.85) / night:rgba(26,26,26,0.85)）
+  - [x] SubTask 4.6: 每套主题覆盖进度条、目录高亮、对话线等 accent 色
+
+- [x] Task 5: 完善章节标题浮窗 CSS
+  - [x] SubTask 5.1: 为 `.reader-chapter-title-float` 添加样式（position:fixed、top:64px、left:50%、transform:translateX(-50%)、padding:8px 24px、backdrop-filter:blur(12px)、theme-bg-glass、border-radius:24px、font-size:0.9rem、font-weight:500、opacity:0、pointer-events:none、transition opacity 0.3s、z-index:20）
+  - [x] SubTask 5.2: 确认 `.reader-chapter-title-float.show` 已有 opacity:1 规则（已存在，验证即可）
+
+- [x] Task 6: 完善目录侧边栏 CSS
+  - [x] SubTask 6.1: 为 `.reader-toc-sidebar` 添加样式（position:fixed、inset:0、z-index:30、visibility:hidden）
+  - [x] SubTask 6.2: 为 `.reader-toc-sidebar-overlay` 添加样式（position:absolute、inset:0、background:rgba(0,0,0,0.5)、opacity:0、transition opacity 0.3s）
+  - [x] SubTask 6.3: 为 `.reader-toc-sidebar-drawer` 添加样式（position:absolute、right:0、top:0、bottom:0、width:clamp(280px,80vw,360px)、background:theme-bg、transform:translateX(100%)、transition transform 0.3s、display:flex、flex-direction:column、box-shadow:-4px 0 24px rgba(0,0,0,0.2)）
+  - [x] SubTask 6.4: 为 `.reader-toc-sidebar-header` 添加样式（display:flex、justify-content:space-between、align-items:center、padding:16px、border-bottom）
+  - [x] SubTask 6.5: 为 `.reader-toc-sidebar-book-title` 添加样式（font-size:0.9rem、font-weight:600、theme color、flex:1、overflow:hidden、text-overflow:ellipsis、white-space:nowrap）
+  - [x] SubTask 6.6: 为 `.reader-toc-sidebar-close` 添加样式（min-width:44px、min-height:44px、display:flex、align-items:center、justify-content:center、background:transparent、border:none、color:theme、cursor:pointer）
+  - [x] SubTask 6.7: 为 `.reader-toc-sidebar-label` 添加样式（padding:12px 16px 8px、font-size:0.75rem、color:theme-secondary、text-transform:uppercase、letter-spacing:1px）
+  - [x] SubTask 6.8: 为 `.reader-toc-list` 添加样式（flex:1、overflow-y:auto、padding:0 8px 16px）
+  - [x] SubTask 6.9: 为 `.reader-toc-item` 添加样式（display:flex、align-items:center、width:100%、min-height:44px、padding:10px 12px、background:transparent、border:none、border-left:3px solid transparent、color:theme、cursor:pointer、text-align:left、font-size:0.9rem、border-radius:0 8px 8px 0、transition background/border-color、gap:8px）
+  - [x] SubTask 6.10: 为 `.reader-toc-item:hover` 添加样式（background:theme-hover）
+  - [x] SubTask 6.11: 确认 `.reader-toc-item.active` 已有规则（已存在，验证即可）
+  - [x] SubTask 6.12: 为 `.reader-toc-item-num` 添加样式（font-size:0.8rem、color:theme-secondary、min-width:24px）
+
+- [x] Task 7: 完善书签面板 CSS
+  - [x] SubTask 7.1: 为 `.reader-panel` 添加样式（position:fixed、inset:0、z-index:30、opacity:0、visibility:hidden、transition opacity/visibility）
+  - [x] SubTask 7.2: 为 `.reader-panel-overlay` 添加样式（position:absolute、inset:0、background:rgba(0,0,0,0.5)）
+  - [x] SubTask 7.3: 为 `.reader-panel-content` 添加样式（position:absolute、background:theme-bg、display:flex、flex-direction:column、max-height:70vh）
+  - [x] SubTask 7.4: 为 `.reader-bookmark-content` 添加样式（bottom:0、left:0、right:0、border-radius:16px 16px 0 0、max-height:70vh、padding:16px）
+  - [x] SubTask 7.5: 为 `.reader-panel-header` 添加样式（display:flex、justify-content:space-between、align-items:center、padding-bottom:12px、border-bottom）
+  - [x] SubTask 7.6: 为 `.reader-panel-title` 添加样式（font-size:1.1rem、font-weight:600、theme color）
+  - [x] SubTask 7.7: 为 `.reader-panel-close` 添加样式（min-width:44px、min-height:44px、display:flex、align-items:center、justify-content:center、background:transparent、border:none、color:theme、cursor:pointer）
+  - [x] SubTask 7.8: 为 `.reader-bookmark-actions` 添加样式（padding:12px 0）
+  - [x] SubTask 7.9: 为 `.reader-add-bookmark-btn` 添加样式（width:100%、min-height:44px、padding:10px、background:theme-accent-soft、border:1px dashed theme-accent、border-radius:8px、color:theme-accent、cursor:pointer、font-size:0.9rem）
+  - [x] SubTask 7.10: 为 `.reader-bookmark-item` 添加样式（display:flex、align-items:center、gap:12px、padding:12px、background:theme-card-bg、border-radius:8px、margin-bottom:8px）
+  - [x] SubTask 7.11: 为 `.reader-bookmark-info` 添加样式（flex:1、overflow:hidden）
+  - [x] SubTask 7.12: 为 `.reader-bookmark-chapter` 添加样式（font-size:0.85rem、font-weight:500、theme color、margin-bottom:4px）
+  - [x] SubTask 7.13: 为 `.reader-bookmark-context` 添加样式（font-size:0.8rem、color:theme-secondary、overflow:hidden、text-overflow:ellipsis、white-space:nowrap）
+  - [x] SubTask 7.14: 为 `.reader-bookmark-delete` 添加样式（min-width:36px、min-height:36px、background:transparent、border:none、color:theme-secondary、cursor:pointer、font-size:1.2rem、border-radius:6px）
+
+- [x] Task 8: 完善设置面板 CSS
+  - [x] SubTask 8.1: 为 `.reader-settings-panel` 添加样式（position:fixed、inset:0、z-index:30、opacity:0、visibility:hidden、transition opacity/visibility）
+  - [x] SubTask 8.2: 为 `.reader-settings-overlay` 添加样式（position:absolute、inset:0、background:rgba(0,0,0,0.5)）
+  - [x] SubTask 8.3: 为 `.reader-settings-content` 添加样式（position:absolute、bottom:0、left:0、right:0、background:theme-bg、border-radius:16px 16px 0 0、max-height:70vh、display:flex、flex-direction:column、box-shadow:0 -4px 24px rgba(0,0,0,0.2)）
+  - [x] SubTask 8.4: 为 `.reader-settings-header` 添加样式（display:flex、justify-content:space-between、align-items:center、padding:16px、border-bottom）
+  - [x] SubTask 8.5: 为 `.reader-settings-title` 添加样式（font-size:1.1rem、font-weight:600、theme color）
+  - [x] SubTask 8.6: 为 `.reader-settings-close` 添加样式（min-width:44px、min-height:44px、display:flex、align-items:center、justify-content:center、background:transparent、border:none、color:theme、cursor:pointer）
+  - [x] SubTask 8.7: 为 `.reader-settings-tabs` 添加样式（display:flex、border-bottom、padding:0 16px）
+  - [x] SubTask 8.8: 为 `.reader-settings-tab` 添加样式（flex:1、min-height:44px、padding:10px、background:transparent、border:none、border-bottom:2px solid transparent、color:theme-secondary、cursor:pointer、font-size:0.9rem、transition color/border-color）
+  - [x] SubTask 8.9: 为 `.reader-settings-tab.active` 添加样式（color:theme-accent、border-bottom-color:theme-accent、font-weight:600）
+  - [x] SubTask 8.10: 为 `.reader-settings-body` 添加样式（display:none、padding:16px、overflow-y:auto、flex:1）
+  - [x] SubTask 8.11: 为 `.reader-settings-body.active` 添加样式（display:block）
+  - [x] SubTask 8.12: 为 `.reader-settings-section` 添加样式（margin-bottom:20px）
+  - [x] SubTask 8.13: 为 `.reader-settings-label` 添加样式（display:block、font-size:0.85rem、color:theme-secondary、margin-bottom:10px）
+  - [x] SubTask 8.14: 为 `.reader-font-size-selector` / `.reader-font-family-selector` / `.reader-line-height-selector` 添加样式（display:flex、gap:8px、flex-wrap:wrap）
+  - [x] SubTask 8.15: 为 `.reader-font-size-btn` 添加样式（min-width:44px、min-height:44px、padding:8px 12px、background:theme-card-bg、border:1px solid theme-border、border-radius:8px、color:theme、cursor:pointer、font-size:0.9rem、transition）
+  - [x] SubTask 8.16: 为 `.reader-font-size-btn.active` 添加样式（background:theme-accent、color:#fff、border-color:theme-accent）
+  - [x] SubTask 8.17: 为 `.reader-font-family-btn` / `.reader-line-height-btn` / `.reader-page-mode-btn` 添加类似按钮样式
+  - [x] SubTask 8.18: 为 `.reader-theme-selector` 添加样式（display:grid、grid-template-columns:repeat(2,1fr)、gap:10px）
+  - [x] SubTask 8.19: 为 `.reader-theme-btn` 添加样式（min-height:56px、padding:12px、border:2px solid transparent、border-radius:10px、cursor:pointer、font-size:0.85rem、display:flex、align-items:center、justify-content:center、transition）
+  - [x] SubTask 8.20: 为 `.reader-theme-btn.active` 添加样式（border-color:theme-accent、box-shadow:0 0 0 2px theme-accent-soft）
+  - [x] SubTask 8.21: 为 `.reader-brightness-slider` / `.reader-auto-speed-slider` 添加样式（display:flex、align-items:center、gap:12px）
+  - [x] SubTask 8.22: 为 slider input[type="range"] 添加样式（flex:1、height:4px、accent-color:theme-accent）
+  - [x] SubTask 8.23: 为 `.reader-toggle-row` 添加样式（display:flex、justify-content:space-between、align-items:center）
+  - [x] SubTask 8.24: 为 `.reader-toggle-switch` 添加样式（position:relative、display:inline-block、width:44px、height:24px）
+  - [x] SubTask 8.25: 为 `.reader-toggle-slider` 添加样式（position:absolute、cursor:pointer、inset:0、background:theme-border、border-radius:12px、transition 0.3s）
+  - [x] SubTask 8.26: 为 `.reader-toggle-switch input:checked + .reader-toggle-slider` 添加样式（background:theme-accent）
+  - [x] SubTask 8.27: 为 `.reader-toggle-slider:before` 添加样式（content:""、position:absolute、height:18px、width:18px、left:3px、bottom:3px、background:#fff、border-radius:50%、transition 0.3s）
+  - [x] SubTask 8.28: 为 `.reader-toggle-switch input:checked + .reader-toggle-slider:before` 添加样式（transform:translateX(20px)）
+
+- [x] Task 9: 移动端适配与触屏优化
+  - [x] SubTask 9.1: 添加 `@media (max-width:600px)` 规则：`.reader-content` padding 调整为 24px 16px、`.reader-title` font-size 缩小、`.reader-header`/`.reader-footer` padding 缩减
+  - [x] SubTask 9.2: 添加横屏窄屏降级：`.reader-orientation-horizontal .reader-content` column-count:1（@media max-width:600px）
+  - [x] SubTask 9.3: 添加全局 `-webkit-tap-highlight-color:transparent`（如未有）
+  - [x] SubTask 9.4: 确认所有交互按钮 min-width/min-height ≥44px
+  - [x] SubTask 9.5: 验证 360px/375px 宽度下无水平溢出
+
+- [x] Task 10: 端到端验证
+  - [x] SubTask 10.1: 使用 Playwright 打开书架，进入一本书的阅读页
+  - [x] SubTask 10.2: 验证正文排版（段落首行缩进、行高、段间距、最大行宽居中）
+  - [x] SubTask 10.3: 验证顶部工具栏（返回/标题/操作按钮显示正常，毛玻璃效果）
+  - [x] SubTask 10.4: 验证底部工具栏（上一章/目录/下一章按钮、进度条显示和更新）
+  - [x] SubTask 10.5: 验证点击屏幕切换工具栏显隐
+  - [x] SubTask 10.6: 验证横竖屏切换（点击按钮后正文布局变化，Toast 提示出现）
+  - [x] SubTask 10.7: 验证四套主题切换（背景/正文色/工具栏色全部变化）
+  - [x] SubTask 10.8: 验证目录侧边栏（打开/关闭/章节跳转/当前章节高亮）
+  - [x] SubTask 10.9: 验证书签面板（打开/添加书签/删除书签）
+  - [x] SubTask 10.10: 验证设置面板（Tab 切换/字号/字体/行距/主题/翻页模式/亮度/更多设置）
+  - [x] SubTask 10.11: 验证移动端 360px 适配（无水平溢出、触控尺寸达标、工具栏正常）
+  - [x] SubTask 10.12: 验证竖屏阅读为默认模式，排版优雅可读
+
+# Task Dependencies
+- [Task 1] 独立（正文区 CSS）
+- [Task 2] 独立（工具栏 CSS）
+- [Task 3] depends on [Task 1]（横竖屏 CSS 依赖正文区 max-width 定义）
+- [Task 4] depends on [Task 1, Task 2]（主题色覆盖正文和工具栏）
+- [Task 5] 独立（浮窗 CSS）
+- [Task 6] 独立（目录 CSS）
+- [Task 7] 独立（书签 CSS）
+- [Task 8] 独立（设置面板 CSS）
+- [Task 9] depends on [Task 1, Task 2, Task 3, Task 4, Task 6, Task 7, Task 8]（移动端适配覆盖所有组件）
+- [Task 10] depends on [Task 1-9]（端到端验证依赖所有 CSS 就位）

@@ -1,0 +1,11 @@
+- [x] SpineRenderer 类实现完整，包含所有必要方法（loadModel、playAnimation、setBoneRotation 等）
+- [x] Spine 模型资源已准备，可正常加载和显示
+- [x] 测试页面已从 VRM 切换为 Spine，模型显示区域正常渲染
+- [x] AI 文字控制动作功能正常（文字指令→动画匹配→播放）
+- [x] 骨骼姿势预设可通过按钮和 AI 指令触发
+- [x] 动画播放、混合和切换功能正常
+- [x] Three.js / VRM 相关 CDN 依赖已移除
+- [x] vrm-renderer.js 引用已移除
+- [x] VRM 相关 JS 代码已从 index.html 清理
+- [x] Live2D 页面（抽卡、角色详情）未受影响
+- [ ] 移动端显示和性能正常

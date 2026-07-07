@@ -1,0 +1,5 @@
+- [ ] Vite 配置中 `three/addons/` 别名使用正则匹配，`three/addons/loaders/GLTFLoader.js` 正确解析为 `libs/loaders/GLTFLoader.js`
+- [ ] index.html 中无 `<script type="importmap">` 块
+- [ ] VRMRenderer 初始化不在 `<head>` 中使用 `await` 阻塞渲染
+- [ ] Vite 开发服务器启动时控制台无 `Failed to resolve import` 错误
+- [ ] VRMRenderer 加载失败时不影响页面其余功能

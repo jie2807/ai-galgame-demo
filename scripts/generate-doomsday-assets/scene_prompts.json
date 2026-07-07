@@ -1,0 +1,78 @@
+{
+  "_style_suffix": "wide panoramic scene, no characters, no people, no figures, no animals, empty environment, post-apocalyptic theme, semi-realistic digital painting style, muted desaturated palette, atmospheric lighting, cinematic composition, detailed environment, high quality, no text, no border, no frame",
+  "_size": "3072x1536",
+  "scenes": {
+    "shelter-interior": {
+      "name": "避难所内部",
+      "prompt": "abandoned underground parking garage converted into a survivor shelter main hall, rusty iron doors, improvised beds made of salvaged materials, dim flickering fluorescent lights, a humming diesel generator in the corner, oil stains on concrete floor, cramped space with hundreds of survivors' belongings scattered around"
+    },
+    "shelter-perimeter": {
+      "name": "避难所外围",
+      "prompt": "barbed wire fences and sandbag fortifications surrounding a shelter entrance, burned-out cars stacked as roadblocks, watchtowers with searchlights, distant ruined city skyline under gray overcast sky, scattered debris and empty shell casings on muddy ground"
+    },
+    "ruins-commerce": {
+      "name": "废墟商业区",
+      "prompt": "collapsed shopping mall with burned-out storefronts, shattered glass and rubble covering the floor, overturned shelves with scattered canned food and medicine, dark corridors with flickering emergency lights, ominous shadows suggesting hidden threats"
+    },
+    "shelter-east-street": {
+      "name": "避难区东街",
+      "prompt": "survivor shanty town built from scrap materials, makeshift market stalls with barter goods, dim string lights, mud and puddles on the ground, a liminal zone between shelter and wasteland, tense and watchful atmosphere"
+    },
+    "west-wall": {
+      "name": "西围墙",
+      "prompt": "defensive wall made of stacked shipping containers and concrete blocks, bullet holes and blood stains on surfaces, a guard tower with a spotlight, scattered bullet casings, distant silhouettes of zombies gathering at twilight, smoke and haze"
+    },
+    "medical-station": {
+      "name": "医疗站",
+      "prompt": "improvised medical ward inside a shelter, three mismatched hospital beds, a crude surgical table, medicine cabinets with handwritten labels, a wall covered with names of the deceased, dim antiseptic atmosphere, flickering overhead lamp"
+    },
+    "irontooth-hq": {
+      "name": "铁牙指挥中心",
+      "prompt": "former city hall building interior converted into a military command center, a large tactical map of the city on the wall with colored pins marking factions, radio equipment arrays, a makeshift command table, dim lighting, tense atmosphere"
+    },
+    "arsenal-perimeter": {
+      "name": "军火库区外围",
+      "prompt": "former military base perimeter controlled by a faction, layers of barbed wire and minefield warning signs, heavy guard towers, concrete ammunition bunkers, stacked crates of weapons, gunmetal gray atmosphere"
+    },
+    "water-station": {
+      "name": "净水站",
+      "prompt": "former water treatment plant controlled by a religious faction, massive water storage tanks and filtration systems, complex pipes and valves, humid atmosphere with water droplets, dim industrial lighting, a sacred resource site"
+    },
+    "power-plant": {
+      "name": "发电厂",
+      "prompt": "suburban coal power plant with towering smokestacks, massive steam turbines, mountains of coal, conveyor belts, control room with analog gauges, smoky atmosphere with coal dust, industrial might"
+    },
+    "bloodhand-outpost": {
+      "name": "血手据点外围",
+      "prompt": "abandoned industrial suburb on the outskirts of a warlord camp, burned-out factories, hanging corpses as warnings, bloody handprint graffiti marking territory, rusted metal and broken glass, atmosphere of terror and hostility"
+    },
+    "infection-edge": {
+      "name": "感染区边缘",
+      "prompt": "edge of an infected zone in a ruined city, decaying environment with corrupted air, deformed footprints on the ground, corrosive slime, dead vegetation, ominous green-tinged fog, a boundary between the human world and the zombie kingdom"
+    },
+    "ark-control": {
+      "name": "方舟北方基地主控室",
+      "prompt": "underground master control room deep inside an abandoned mine, circular control console, twelve monitoring screens, AI holographic projection, red alert lights flashing, advanced technology, oppressive atmosphere"
+    },
+    "ark-lab": {
+      "name": "实验室",
+      "prompt": "core laboratory inside a secret base, level-3 biosafety cabinets, gene sequencing equipment, test tube racks with purple liquid, cold storage with mutated samples, sterile white lighting, cold and precise atmosphere"
+    },
+    "isolation-room": {
+      "name": "隔离室",
+      "prompt": "deep isolation chamber inside a secret base, triple-layered tempered glass walls, negative pressure ventilation, monitoring cameras, walls covered with handwritten conversation logs, mysterious and oppressive atmosphere"
+    },
+    "infection-depth": {
+      "name": "感染区深处",
+      "prompt": "heart of the infected zone, buildings covered with mutated mycelium, hallucinogenic spores floating in the air, ground covered with zombie nests and egg sacs, bioluminescent fungi, an alien landscape of horror"
+    },
+    "divine-punishment-temple": {
+      "name": "神罚派圣殿",
+      "prompt": "former cathedral converted into a cult headquarters, shattered stained glass windows, blood-stained cross, altar with a skull of a sanctified zombie, dim candlelight, fanatical atmosphere, hidden secrets"
+    },
+    "harbor": {
+      "name": "港口",
+      "prompt": "southern port of a ruined city, rusted cranes, half-sunken cargo ships, waves washing against the pier, sea breeze with salt, distant unknown horizon, an escape route starting point, melancholic hope"
+    }
+  }
+}

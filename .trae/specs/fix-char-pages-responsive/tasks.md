@@ -1,0 +1,34 @@
+# Tasks
+- [x] Task 1: 角色列表页面clamp最小值彻底降低
+  - [x] SubTask 1.1: 将charlist-header padding的clamp最小值降至合理范围
+  - [x] SubTask 1.2: 将charlist-back-btn font-size/svg/padding/gap的clamp最小值降至4px以下
+  - [x] SubTask 1.3: 将charlist-title/subtitle/count的clamp最小值降至5px以下
+  - [x] SubTask 1.4: 将charlist-main padding的clamp最小值降至4px以下
+  - [x] SubTask 1.5: 将charlist-grid和charlist-card相关clamp最小值降至8px以下
+  - [x] SubTask 1.6: 将charlist-card-name/title/rarity的clamp最小值降至5px以下
+  - [x] SubTask 1.7: 将charlist-empty/placeholder的clamp最小值降至合理范围
+- [x] Task 2: 角色列表页面添加768px和480px媒体查询
+  - [x] SubTask 2.1: 在768px媒体查询中添加角色列表页面完整覆盖规则
+  - [x] SubTask 2.2: 在480px媒体查询中添加角色列表页面完整覆盖规则
+  - [x] SubTask 2.3: 确认overflow: hidden在所有断点下生效
+- [x] Task 3: 角色详情页字体vw权重增大(放大效果)
+  - [x] SubTask 3.1: .chardetail-name vw从2.5→3.8, max从26→36
+  - [x] SubTask 3.2: .chardetail-title vw从1.5→2.5, max从16→24
+  - [x] SubTask 3.3: .chardetail-rarity-name vw从2.0→3.0, max从22→30
+  - [x] SubTask 3.4: .chardetail-label vw从1.0→1.8, max从11→16
+  - [x] SubTask 3.5: .chardetail-value vw从1.2→2.0, max从15→22
+  - [x] SubTask 3.6: .chardetail-affection-level vw从2.0→2.8, max从18→26
+  - [x] SubTask 3.7: .chardetail-affection-points vw从1.3→2.0, max从14→20
+  - [x] SubTask 3.8: .chardetail-chat-btn/font-size vw从1.5→2.0
+  - [x] SubTask 3.9: .chardetail-back-btn font-size vw从1.4→1.4(保持)
+- [x] Task 4: 角色详情页间距vw/vh权重增大
+  - [x] SubTask 4.1: .chardetail-info-area gap vh从0.8→1.8, padding vh从2.5→3.5
+  - [x] SubTask 4.2: .chardetail-fields gap vh从0.6→1.5
+  - [x] SubTask 4.3: .chardetail-field gap vh从0.2→0.6
+  - [x] SubTask 4.4: .chardetail-rarity-line gap vw从0.5→1.2, margin-bottom vh从0.5→1.0
+  - [x] SubTask 4.5: .chardetail-affection padding vh从1.0→1.8, vw从1.5→2.2
+  - [x] SubTask 4.6: .chardetail-affection-header margin-bottom vh从0.3→0.8
+
+# Task Dependencies
+- [Task 2] depends on [Task 1]
+- [Task 3] and [Task 4] can be done in parallel

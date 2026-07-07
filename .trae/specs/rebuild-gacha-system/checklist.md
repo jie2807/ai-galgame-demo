@@ -1,0 +1,19 @@
+- [ ] 验证 index.html 中不再存在 `#gachaPage` 内联 HTML 元素
+- [ ] 验证 index.html 内联脚本中不再存在 `gachaPool`、`gachaState`、`pullGacha`、`showEnvelopeResult` 等变量和函数
+- [ ] 验证 styles.css 中不再存在旧的内联抽卡样式（.gacha-bg-video 等旧类名）
+- [ ] 验证旧的 pages/gacha/GachaPage.js 和 gacha.css 已被删除
+- [ ] 验证 data/gachaPool.js 存在且导出正确的抽卡池数据
+- [ ] 验证角色 id 与 data/characters.js 和 data/gameData.js 对齐
+- [ ] 验证 window.__APP__.gachaPool 在应用初始化后可访问
+- [ ] 验证从首页点击"永恆の花園"可正确导航到抽卡页面
+- [ ] 验证抽卡页面显示背景视频、标题、信件计数、抽卡按钮
+- [ ] 验证单抽功能正常：消耗 1 信件，显示动画，展示结果卡片
+- [ ] 验证十连抽功能正常：消耗 10 信件，依次展示结果
+- [ ] 验证信件不足时抽卡按钮禁用
+- [ ] 验证收藏列表弹窗可正常打开和关闭，显示已拥有角色
+- [ ] 验证重复角色标记"重复"
+- [ ] 验证刷新页面后抽卡状态（信件数、已拥有角色）保持不变
+- [ ] 验证从抽卡页面返回首页功能正常
+- [ ] 验证抽卡页面卸载时视频停止播放、事件解绑
+- [ ] 验证 main.js 的 INLINE_PAGE_MAP 中不再包含 /gacha 映射
+- [ ] 验证游戏页面中引用 gachaPool 的代码已改为从 window.__APP__.gachaPool 获取

@@ -1,0 +1,23 @@
+        var itemSourceHints = {
+            voter_register: '第三等级代表选举委员会办公室或黑鸦内部档案',
+            seat_list: '议会书记处或贵族院密室',
+            rosenberg_crest: '罗森伯格庄园或家主随身物品',
+            royal_seal: '王宫书房或王室幕僚长亲自授予',
+            revolutionary_manifesto: '公民论坛地下印刷点',
+            secret_police_file: '黑鸦据点或叛变特务',
+            fine_cigar: '贵族沙龙、军官俱乐部或高级烟店',
+            black_coffee: '工人区食堂或公民论坛地下总部',
+            bandage: '工人区诊所或秘密医疗点',
+            tear_gas: '秘密警察装备库或黑市军火商',
+            forged_papers: '地下伪造者或公民论坛联络员',
+            vintage_wine: '罗森伯格酒窖或贵族庄园',
+            family_brooch: '罗森伯格家族成员或珠宝匠人',
+            progressive_book: '激进知识分子或地下书商',
+            royal_medal: '王宫典礼或王室特使',
+            worker_badge: '钢铁工会办事处或资深工人',
+            printing_paper: '报社、印刷厂或地下印刷点',
+            telegram_draft: '邮电局、报馆或贵族情报网',
+            bribe_pouch: '银行金库、赌场或政治献金',
+            gun_parts: '黑市军火商、退役军官或贵族私兵营地',
+            propaganda_poster: '公民论坛宣传队或贵族院喉舌'
+        };

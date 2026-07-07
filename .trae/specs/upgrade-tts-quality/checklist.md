@@ -1,0 +1,22 @@
+- [x] Cloudflare Worker 代理脚本可正常运行，能成功代理 Edge TTS WebSocket 请求
+- [x] Worker 脚本正确返回 webm 音频数据
+- [x] Worker 脚本正确返回可用音色列表（/voices 端点，对象数组格式含 ShortName/DisplayName/Locale/Gender）
+- [x] Worker 脚本设置了正确的 CORS 头
+- [x] EdgeTTSEngine 类实现正确，能通过 Worker 代理获取并播放音频
+- [x] WebSpeechEngine 类正确封装现有 Web Speech API 逻辑（NPCTTS 保持不变）
+- [x] TTS 策略管理器优先使用 Edge TTS，降级到 Web Speech API（getCurrentTTSEngine）
+- [x] 自动降级逻辑正确（Edge TTS 失败时 8 秒超时自动切换）
+- [x] 音频缓存命中时直接播放，不发起网络请求
+- [x] 缓存容量超过 50MB 时自动淘汰最早条目（LRU）
+- [x] TTS 设置面板显示引擎选择器（Edge TTS / Web Speech API）
+- [x] Worker 代理地址输入框正常工作
+- [x] Neural 音色选择器能从 Worker 获取并显示音色列表（含性别标记 ♂♀）
+- [x] 设置持久化到 localStorage 正常工作
+- [x] 部署指引入口可点击查看（openEdgeTTSHelp 弹窗）
+- [x] TTS 按钮在 Edge TTS 加载中显示旋转图标
+- [x] TTS 按钮加载超时（8 秒）后自动降级到 Web Speech API
+- [x] 加载中旋转动画样式正确（.tts-spin-icon, @keyframes tts-spin）
+- [x] TTS 引擎选择器和配置面板样式正确
+- [ ] 移动端浏览器兼容性测试通过（需实际设备测试）
+- [ ] 离线模式下仅 Web Speech API 可用，不报错（需实际测试）
+- [x] 现有 Web Speech API 功能未受影响（回归测试 - NPCTTS 所有方法仍在正常调用）

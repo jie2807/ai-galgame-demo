@@ -1,0 +1,27 @@
+- [x] lottie-web CDN已引入index.html，lottie全局对象可用
+- [x] DyLottiePlayer封装对象已实现，支持play/pause/resume/destroy操作
+- [x] 视频播放区有#dyLottieLayer容器层，Lottie动画渲染在渐变背景之上
+- [x] 切换视频时Lottie动画正确创建和销毁
+- [x] _dyLottiePool资源池已创建，包含6个分类共16-20个Lottie JSON URL
+- [x] dyMatchLottie函数能根据category和mood匹配Lottie动画
+- [x] _dyBgmPool资源池已创建，包含8-10首免版权BGM URL
+- [x] dyMatchBgm函数能根据category和mood匹配BGM
+- [x] BGM通过<audio>元素播放，支持播放/暂停/音量控制
+- [x] BGM ducking效果正常——TTS期间音量降至15%，朗读后恢复至30%
+- [x] 浏览到含ttsText的视频时NPCTTS自动朗读口播文案
+- [x] TTS朗读时字幕逐字显示（打字机效果）
+- [x] 切换视频时speechSynthesis.cancel()停止当前TTS
+- [x] 静音按钮可一键关闭TTS和BGM
+- [x] _dyAnchorPersona主播人格数据已定义
+- [x] dyAnchorFetchNews通过AIServiceHub的enableWebSearch抓取当日热点
+- [x] dyAnchorGenerateScript生成完整视频脚本（含lottieCategory/mood/bgmCategory/bgmMood）
+- [x] dyAnchorComposeVideo将脚本+Lottie+BGM组合为完整视频对象
+- [x] dyAnchorAutoRun编排完整工作流，异步执行各步骤
+- [x] 首次进入抖音时自动触发AI主播工作流（仅一次）
+- [x] window._dyState.hasAnchorVideo标记避免重复自动生成
+- [x] 视频生成完成后顶部显示通知条，3秒后消失
+- [x] AI创作面板新增"AI主播自动创作"选项
+- [x] 视频合成播放器统一管理Lottie+TTS+BGM+字幕同步
+- [x] AI主播视频有"AI主播A"用户名和"🤖 AI创作"标签
+- [x] 播放控制按钮（静音/音量）正常工作
+- [x] 所有新增CSS样式已添加到creator-wars.css

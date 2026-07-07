@@ -1,0 +1,18 @@
+- [x] `portraitPool` 已包含官方剧本中所有角色的图片立绘与 Level 2D 模型
+- [x] 同一角色的图片与 Level 2D 在角色池中是两条独立条目
+- [x] 角色池条目不显示角色名，仅以视觉样式识别
+- [x] NPC 卡片只有一个「选择立绘」按钮，点击后打开面板
+- [x] 未选择立绘时按钮显示占位提示
+- [x] 已选择立绘时按钮显示缩略预览和格式角标（单纯图片 / Level 2D 模型）
+- [x] 立绘选择面板以网格展示所有资源
+- [x] 图片资源在面板中直接展示图片本身
+- [x] Level 2D 资源在面板中直接渲染模型样式
+- [x] 每个面板卡片带有格式标签（单纯图片 / Level 2D 模型）
+- [x] 点击面板卡片后正确回填 NPC 的 `portraitType`、`portraitUrl`、`portraitModelJson`
+- [x] 支持本地上传图片并立即加入角色池可选
+- [x] 支持本地上传 Level 2D 模型并立即加入角色池可选
+- [x] 上传失败时给出明确提示
+- [x] `getCustomConfig()` 输出的 NPC 数据包含立绘字段
+- [x] `saveCustomConfig()` / `loadCustomConfig()` 正确保存与恢复立绘字段
+- [x] `startCustomGameFromConfig()` 将 NPC 的 Level 2D 模型注册到 `npcLive2DModels`
+- [x] 游戏内 `switchNPC` 能正确加载自定义 NPC 的 Level 2D 模型

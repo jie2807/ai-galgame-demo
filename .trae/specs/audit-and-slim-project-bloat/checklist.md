@@ -1,0 +1,19 @@
+- [x] 已建立 `index.html` 运行时必需文件清单
+- [x] 已识别并分类所有疑似废弃文件与目录
+- [x] 根目录下所有 `*.log` 文件已删除
+- [x] 根目录下所有 `verify-*.png`、`final-verify-*.png` 测试截图已删除
+- [x] 根目录下所有临时/测试 JS 脚本已删除
+- [x] `index.html.bak.t2s`、`_tmp_conv/` 等备份/临时目录已删除
+- [x] `styles/inline-extracted.css` 与 `styles/inline-mobile.css` 已确认未引用并删除
+- [x] `assets/bg/` 中 `test_*.jpg` 等临时图片已清理
+- [x] `test-screenshots/` 目录已删除
+- [x] `dist/` 构建产物目录已删除（确认与源码重复后）
+- [x] `public/` 目录已删除（确认与源码重复后）
+- [x] 未引用的 `vendor/`、`js/`、`models/vrm/` 文件已删除
+- [x] `videos/` 中未引用视频已清理
+- [x] `.trae/documents/` 中明显过期文档已清理
+- [x] `.trae/specs/` 中已执行完毕且无后续价值的旧 spec 已清理
+- [x] 已生成清理报告，包含删除清单与优化建议
+- [x] 清理后 `index.html` 首页可正常打开且无 404 错误
+- [x] 清理后章节任务、自定义剧本、Creator Wars 等核心页面功能正常
+- [x] 清理后浏览器控制台无关键资源加载失败

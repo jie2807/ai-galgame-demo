@@ -1,0 +1,19 @@
+- [x] index.html 中包含 Three.js importmap（three、three/addons/、@pixiv/three-vrm、fflate）
+- [x] VRM 模型文件存在于 `models/vrm/` 目录
+- [x] 内置程序化动画替代 Mixamo FBX 文件（9 个动画：idle、wave、bow、nod、shake_head、raise_right_hand、raise_left_hand、jump、clap）
+- [x] `vrm-renderer.js` 文件存在且导出 VRMRenderer 类到全局
+- [x] VRMRenderer.initialize() 能创建 Three.js 场景、相机、灯光、渲染器
+- [x] VRMRenderer.loadModel(url) 能加载 VRM 模型并添加到场景
+- [x] VRMRenderer.loadMixamoAnimation(url) 能加载 FBX 动画并重定向到 VRM 骨骼
+- [x] VRMRenderer 支持动画播放、停止、crossFade 切换
+- [x] VRMRenderer 支持骨骼旋转控制（setBoneRotation）
+- [x] VRMRenderer 支持表情控制（playExpression）
+- [x] VRMRenderer 支持 resize 和 destroy 资源管理
+- [x] 测试页面使用 VRMRenderer 替代 Live2DRenderer
+- [x] 测试页面动作列表显示内置动画按钮（9 个动画）
+- [x] 测试页面表情列表显示 VRM BlendShape 按钮
+- [x] AI 文字控制逻辑支持中文关键词匹配动画
+- [x] AI 文字控制逻辑支持骨骼姿势控制（如"举起右手"）
+- [x] 点击首页"人物纪念收藏"卡片能正常打开测试页面
+- [x] 测试页面关闭时正确销毁 VRM 渲染器资源
+- [x] VRM 模型加载失败时有 CDN 回退机制和错误提示

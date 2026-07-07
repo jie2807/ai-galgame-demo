@@ -1,0 +1,10 @@
+- [ ] reset.css 中视频有 height: 100% 或 object-fit: cover（非 height: auto）
+- [ ] reset.css 中 `svg { fill: currentColor }` 不影响首页 SVG
+- [ ] 首页 SVG 保留其内部渐变和填充
+- [ ] 首页背景视频有正确的尺寸和定位
+- [ ] 视频 fallback 逻辑正确（不用 onerror="this.style.display='none'"）
+- [ ] .bg-video, .bg-image, .bg-placeholder 有 position: absolute; inset: 0
+- [ ] .bg-video-main, .bg-img-main 有 width: 100%; height: 100%; object-fit: cover
+- [ ] Vite 服务器启动无 CSS/JS 错误
+- [ ] 首页背景（视频/图片/SVG）正确显示
+- [ ] 首页所有元素可见且位置正确

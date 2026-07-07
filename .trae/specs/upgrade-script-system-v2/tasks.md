@@ -1,0 +1,186 @@
+# 剧本系统深度升级优化 - 任务列表
+
+## 任务依赖关系
+- Task 1（数据模型层）是所有后续任务的基础
+- Task 2（状态管理统一）依赖 Task 1 的数据模型
+- Task 3（ScriptEngine 核心引擎）依赖 Task 1 + Task 2
+- Task 4（对话摘要系统）依赖 Task 3
+- Task 5（Lorebook 引擎升级）依赖 Task 1，可与 Task 3 并行
+- Task 6（世界状态引擎升级）依赖 Task 2，可与 Task 3 并行
+- Task 7（多NPC对话系统）依赖 Task 3
+- Task 8（剧情事件触发器）依赖 Task 3 + Task 6
+- Task 9（存档槽位系统）依赖 Task 2 + Task 3
+- Task 10（UI适配与集成）依赖 Task 3-9 全部完成
+- Task 11（集成测试）依赖 Task 10
+
+## 任务列表
+
+- [x] Task 1: 剧本数据模型层
+  - **目标**: 建立标准化的剧本数据模型、Schema验证和数据版本迁移机制
+  - **步骤**:
+    - [ ] 1.1 创建 `src/engine/models/ScriptData.js`：定义 ScriptData 完整数据模型（version, metadata, worldSettings, characters, chapters, events）
+    - [ ] 1.2 创建 `src/engine/models/ChapterData.js`：定义章节数据模型（id, number, title, desc, npcs, openingScene, objective, worldContext, isCustom, playerCharacter）
+    - [ ] 1.3 创建 `src/engine/models/NPCData.js`：定义NPC数据模型（id, name, title, description, personality, firstMessage, live2dModel, aliases）
+    - [ ] 1.4 创建 `src/engine/models/WorldState.js`：定义世界状态模型（location, weather, time, playerStatus, activeEvents）
+    - [ ] 1.5 创建 `src/engine/models/LoreEntry.js`：定义知识条目模型（keys, content, priority, contextTags, isCustom）
+    - [ ] 1.6 创建 `src/engine/models/EventData.js`：定义事件数据模型（id, conditions, actions, triggered, once）
+    - [ ] 1.7 创建 `src/engine/models/Validator.js`：实现 Schema 验证器，支持必需字段检查、类型检查、默认值填充
+    - [ ] 1.8 创建 `src/engine/models/Migrator.js`：实现数据版本迁移器，支持 1.0 → 2.0 迁移
+    - [ ] 1.9 将 index.html 中硬编码的 gameChapters/gameCharacters/gameWorldInfo/chapterLocations/weatherTypes/statusKeywords 转换为数据模型实例
+    - [ ] 1.10 验证：所有数据模型可通过 Validator 验证，迁移器正确处理版本转换
+  - **验证**: 数据模型单元测试通过，旧格式数据可正确迁移到新格式
+
+- [x] Task 2: 游戏状态管理统一
+  - **目标**: 将分散的 sessionStorage/localStorage/全局变量统一到 State 响应式系统，实现自动持久化
+  - **步骤**:
+    - [ ] 2.1 扩展 `src/core/state.js`：添加 `persist` 选项，标记需要持久化的 key
+    - [ ] 2.2 实现 State 自动持久化：持久化 key 变更时自动写入 localStorage
+    - [ ] 2.3 实现 State 自动恢复：初始化时从 localStorage 读取持久化状态
+    - [ ] 2.4 创建 `src/engine/GameState.js`：定义游戏状态结构（chapter, npc, world, affection, messages, events）
+    - [ ] 2.5 将 gameState 全局变量迁移至 State 实例
+    - [ ] 2.6 将 affectionData 迁移至 State 实例
+    - [ ] 2.7 将 chatEngine.messages 迁移至 State 实例
+    - [ ] 2.8 将 gachaState 迁移至 State 实例
+    - [ ] 2.9 移除所有 sessionStorage 读写，替换为 State 持久化
+    - [ ] 2.10 验证：页面刷新后游戏状态正确恢复，无 sessionStorage 残留
+  - **验证**: 所有状态通过 State 管理，页面刷新后状态完整恢复
+
+- [x] Task 3: ScriptEngine 核心引擎
+  - **目标**: 创建模块化 ScriptEngine，替代 index.html 内嵌的 ChatEngine 类
+  - **步骤**:
+    - [ ] 3.1 创建 `src/engine/ScriptEngine.js`：主引擎类，组合子模块，提供统一接口
+    - [ ] 3.2 创建 `src/engine/DialogueEngine.js`：对话管理模块（消息收发、流式处理、消息解析）
+    - [ ] 3.3 创建 `src/engine/NPCEngine.js`：NPC管理模块（状态管理、好感度、切换、Live2D联动）
+    - [ ] 3.4 创建 `src/engine/WorldEngine.js`：世界状态模块（地点、天气、时间、玩家状态）
+    - [ ] 3.5 将 ChatEngine.buildSystemPrompt() 迁移至 GameAIService
+    - [ ] 3.6 将 ChatEngine.buildApiMessages() 迁移至 GameAIService
+    - [ ] 3.7 将 ChatEngine.sendMessage() 的流式处理逻辑迁移至 DialogueEngine
+    - [ ] 3.8 将 ChatEngine.scanLorebook() 迁移至 LorebookEngine
+    - [ ] 3.9 将 ChatEngine.saveMessages()/restoreMessages() 迁移至 State 持久化
+    - [ ] 3.10 将 startGame()/startCustomGameFromConfig() 迁移至 ScriptEngine.init()
+    - [ ] 3.11 将 exitGame() 迁移至 ScriptEngine.destroy()
+    - [ ] 3.12 扩展 GameAIService：添加 buildSystemPrompt、buildApiMessages、detectTimeAdvance、detectLocationChange 方法
+    - [ ] 3.13 验证：ScriptEngine 可正常初始化、发送消息、接收AI回复、NPC切换
+  - **验证**: ScriptEngine 替换 ChatEngine 后，游戏页面所有功能正常工作
+
+- [x] Task 4: 对话摘要系统
+  - **目标**: 实现长对话自动摘要，减少 token 消耗
+  - **步骤**:
+    - [ ] 4.1 创建 `src/engine/SummaryEngine.js`：对话摘要模块
+    - [ ] 4.2 实现摘要触发逻辑：消息数超过阈值时自动触发
+    - [ ] 4.3 实现摘要生成：调用 AI API 将早期对话压缩为摘要
+    - [ ] 4.4 实现摘要缓存：摘要结果缓存，避免重复生成
+    - [ ] 4.5 修改 GameAIService.buildApiMessages()：集成摘要，替换截断逻辑
+    - [ ] 4.6 实现摘要增量更新：新消息超过阈值时增量更新摘要而非全量重建
+    - [ ] 4.7 验证：长对话（50+条消息）时 token 消耗显著减少，关键上下文不丢失
+  - **验证**: 50条消息的对话，摘要后 API 请求 token 数减少 40% 以上
+
+- [x] Task 5: Lorebook 语义扫描引擎
+  - **目标**: 升级 Lorebook 从简单关键词匹配到带优先级权重的语义匹配
+  - **步骤**:
+    - [ ] 5.1 创建 `src/engine/LorebookEngine.js`：知识库扫描模块
+    - [ ] 5.2 实现优先级权重匹配：条目按 priority 排序，高优先级优先注入
+    - [ ] 5.3 实现 token 预算控制：注入条目总长度不超过预算
+    - [ ] 5.4 实现上下文标签匹配：根据最近消息判断上下文标签，匹配 contextTags
+    - [ ] 5.5 实现别名匹配：LoreEntry 的 keys 支持别名（如 ["C·H邮政公司", "邮局", "公司"]）
+    - [ ] 5.6 实现自定义 Lorebook 合并：自定义条目与内置条目合并，自定义优先
+    - [ ] 5.7 修改 GameAIService.buildSystemPrompt()：使用 LorebookEngine 替代 scanLorebook
+    - [ ] 5.8 验证：Lorebook 扫描结果按优先级排序，token 预算正确控制
+  - **验证**: 自定义剧本的 Lorebook 条目正确注入，优先级和预算控制生效
+
+- [x] Task 6: 世界状态引擎升级
+  - **目标**: 升级时间推进、地点检测、天气系统
+  - **步骤**:
+    - [ ] 6.1 实现智能时间推进：根据 AI 回复语义调整推进量（5-120分钟）
+    - [ ] 6.2 实现时间推进关键词映射：定义时间描述到推进量的映射表
+    - [ ] 6.3 实现增强地点检测：精确匹配 + 别名匹配 + 上下文推断
+    - [ ] 6.4 实现地点别名系统：LocationData 支持 aliases 字段
+    - [ ] 6.5 实现天气系统升级：地点权重 + 时间段影响 + 剧情事件影响
+    - [ ] 6.6 实现天气稳定性：同一地点连续对话时 80% 概率天气不变
+    - [ ] 6.7 实现玩家状态检测增强：增加上下文判断，减少误判
+    - [ ] 6.8 验证：时间推进符合语义，地点检测准确率提升，天气变化合理
+  - **验证**: 测试多种场景下的时间推进、地点变更、天气变化是否合理
+
+- [x] Task 7: 多NPC对话系统
+  - **目标**: 支持多NPC场景对话和NPC间交互
+  - **步骤**:
+    - [ ] 7.1 扩展 NPCEngine：添加多NPC场景管理
+    - [ ] 7.2 扩展 GameAIService.buildSystemPrompt()：支持多NPC system prompt
+    - [ ] 7.3 实现多NPC消息解析：AI 回复中区分不同NPC的发言
+    - [ ] 7.4 实现场景对话UI：消息气泡显示NPC名称和头像
+    - [ ] 7.5 实现NPC间对话编排：AI 控制多个NPC依次发言
+    - [ ] 7.6 实现场景切换：私人对话 ↔ 公共场景
+    - [ ] 7.7 验证：多NPC场景中对话流畅，NPC角色一致性保持
+  - **验证**: 2个以上NPC同时在场时，对话正常进行，各NPC发言保持角色一致
+
+- [x] Task 8: 剧情事件触发器
+  - **目标**: 实现基于条件的自动事件触发系统
+  - **步骤**:
+    - [ ] 8.1 创建 `src/engine/EventEngine.js`：事件触发模块
+    - [ ] 8.2 实现条件评估器：支持 affection/location/time/message_count/keyword/status 条件类型
+    - [ ] 8.3 实现复合条件逻辑：AND 组合多个条件
+    - [ ] 8.4 实现事件动作执行器：支持 narration/npc_join/location_change/quest_update 动作类型
+    - [ ] 8.5 实现一次性触发：once=true 的事件触发后标记为已触发
+    - [ ] 8.6 实现事件检查时机：每条AI回复后检查所有未触发事件
+    - [ ] 8.7 在剧本数据模型中添加 events 字段
+    - [ ] 8.8 在自定义剧本编辑器中添加事件定义UI
+    - [ ] 8.9 验证：定义的事件在条件满足时正确触发，触发后不重复
+  - **验证**: 自定义剧本中定义的事件在条件满足时自动触发
+
+- [x] Task 9: 存档槽位系统
+  - **目标**: 实现多存档槽位，支持保存和加载不同进度
+  - **步骤**:
+    - [ ] 9.1 创建 `src/engine/SaveManager.js`：存档管理模块
+    - [ ] 9.2 实现存档数据结构：对话历史 + 世界状态 + NPC好感度 + 章节信息 + 时间戳
+    - [ ] 9.3 实现存档创建：将当前 State 快照保存到指定槽位
+    - [ ] 9.4 实现存档加载：从指定槽位恢复 State
+    - [ ] 9.5 实现存档列表：显示 5 个槽位的摘要信息
+    - [ ] 9.6 实现存档删除：清除指定槽位
+    - [ ] 9.7 实现存档UI：游戏页面添加保存/加载按钮和存档列表弹窗
+    - [ ] 9.8 实现存档缩略信息：章节名、NPC名、游戏时间、存档时间
+    - [ ] 9.9 验证：存档可正确保存和加载，页面刷新后存档不丢失
+  - **验证**: 创建存档 → 刷新页面 → 加载存档 → 游戏状态完整恢复
+
+- [x] Task 10: UI适配与集成
+  - **目标**: 将 index.html 中的内嵌脚本替换为模块化 ScriptEngine 调用
+  - **步骤**:
+    - [ ] 10.1 修改 index.html：移除 ChatEngine 类定义，替换为 ScriptEngine import
+    - [ ] 10.2 修改 index.html：移除全局变量 gameState/gameChapters/gameCharacters/gameWorldInfo，替换为 State 调用
+    - [ ] 10.3 修改 index.html：移除 startGame()/exitGame() 等函数，替换为 ScriptEngine 方法调用
+    - [ ] 10.4 修改 index.html：移除 sessionStorage 读写，替换为 State 持久化
+    - [ ] 10.5 修改游戏页面UI：适配新的状态订阅机制
+    - [ ] 10.6 修改自定义剧本编辑器：适配新的数据模型
+    - [ ] 10.7 修改导入导出功能：适配新的数据模型和验证器
+    - [ ] 10.8 修改 NPC 切换逻辑：适配 NPCEngine
+    - [ ] 10.9 修改 Live2D 联动：适配 NPCEngine 的事件机制
+    - [ ] 10.10 验证：所有页面功能正常，无内嵌 ChatEngine 残留
+  - **验证**: 游戏页面所有交互功能正常，代码中无 ChatEngine 类和全局状态变量
+
+- [ ] Task 11: 集成测试与验证
+  - **目标**: 全面测试所有升级功能，确保系统稳定
+  - **步骤**:
+    - [ ] 11.1 测试 ScriptEngine 初始化和消息收发
+    - [ ] 11.2 测试对话摘要系统：50+条消息的长对话
+    - [ ] 11.3 测试 Lorebook 语义匹配和优先级
+    - [ ] 11.4 测试世界状态引擎：时间推进、地点变更、天气变化
+    - [ ] 11.5 测试多NPC对话：2-3个NPC同时在场
+    - [ ] 11.6 测试剧情事件触发：条件满足时自动触发
+    - [ ] 11.7 测试存档系统：保存、加载、删除
+    - [ ] 11.8 测试自定义剧本：编辑、AI生成、导入、导出、游玩
+    - [ ] 11.9 测试异常场景：网络断开、API错误、无效数据导入
+    - [ ] 11.10 测试状态持久化：刷新页面后状态恢复
+    - [ ] 11.11 修复发现的问题
+  - **验证**: 所有测试场景通过，无严重 bug
+
+# Task Dependencies
+- Task 1 是基础，Task 2-9 均依赖 Task 1
+- Task 2 依赖 Task 1
+- Task 3 依赖 Task 1 + Task 2
+- Task 4 依赖 Task 3
+- Task 5 依赖 Task 1（可与 Task 2/3 并行）
+- Task 6 依赖 Task 2（可与 Task 3 并行）
+- Task 7 依赖 Task 3
+- Task 8 依赖 Task 3 + Task 6
+- Task 9 依赖 Task 2 + Task 3
+- Task 10 依赖 Task 3-9 全部完成
+- Task 11 依赖 Task 10

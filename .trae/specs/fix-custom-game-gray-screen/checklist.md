@@ -1,0 +1,9 @@
+- [x] startCustomGameFromConfig() file: 分支有 try-catch-finally 错误处理
+- [x] startGame() file: 分支有 try-catch-finally 错误处理
+- [x] gamePage.classList.add('active') 在 finally 块中被调用，确保页面始终显示
+- [x] catch 块中显示错误 toast 提示
+- [x] getCustomConfig() 返回对象包含 availableLocations 字段
+- [x] startCustomGameFromConfig() 将 config.loreEntries 注册到 gameWorldInfo
+- [x] 自定义剧本在 file:// 下启动后游戏页面正常显示内容（非灰屏）
+- [x] 预设章节在 file:// 下启动后游戏页面正常显示内容
+- [x] 整个脚本块语法验证通过

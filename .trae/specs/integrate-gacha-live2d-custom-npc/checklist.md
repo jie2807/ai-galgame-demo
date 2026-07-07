@@ -1,0 +1,12 @@
+- [x] gachaPool 中 violet 和 hodgins 角色已绑定 live2dModel 字段
+- [x] showCharacterDetail() 支持 Live2D 动态立绘渲染，无模型时回退到静态图片
+- [x] 离开角色详情页时正确销毁 Live2D 模型释放资源
+- [x] NPC 卡片包含"添加立绘"按钮和角色信息显示区域
+- [x] 立绘选择弹窗正确实现（遮罩层 + 角色列表网格 + 稀有度标签）
+- [x] 弹窗仅展示已抽到的 gachaPool 角色
+- [x] 选中角色后自动填充 NPC 空白字段（name、title、personality、firstMessage）
+- [x] 已有字段不被覆盖，仅更新 live2dModel 和 live2dSourceCharId
+- [x] getCustomConfig() 正确读取和保存 live2dModel、live2dSourceCharId 字段
+- [x] addCustomNpcCard() 恢复 NPC 时正确还原立绘选择状态
+- [x] startCustomGameFromConfig() 将自定义 NPC 的 live2dModel 注册到 npcLive2DModels
+- [x] switchNPC 能正确切换自定义 NPC 的 Live2D 立绘

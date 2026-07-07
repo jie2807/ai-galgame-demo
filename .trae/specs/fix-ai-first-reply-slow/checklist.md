@@ -1,0 +1,7 @@
+- [x] `SimpleChatEngine.sendMessage` 请求体在默认配置下不包含 `max_tokens` 字段
+- [x] `SimpleChatEngine.sendMessage` 请求体在默认配置下不包含 `temperature` 字段
+- [x] 当 settings 显式提供 `maxTokens`（数值且 > 0）时，请求体包含 `max_tokens` 字段
+- [x] 当 settings 显式提供 `temperature`（数值）时，请求体包含 `temperature` 字段
+- [x] `_buildApiMessages` 中的历史消息截断逻辑（MAX_HISTORY_MESSAGES = 12）保留不变
+- [x] 所有 script 块通过 `new Function(body)` 语法校验，0 报错
+- [ ] 用户实测：AI 第一轮回复速度恢复正常（首字延迟不再异常缓慢）

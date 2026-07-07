@@ -1,0 +1,160 @@
+/**
+ * 动画定义
+ */
+
+/* ===== 基础动画 ===== */
+
+/* 淡入 */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* 淡出 */
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+/* 缩放进入 */
+@keyframes scaleIn {
+    from { transform: scale(0.9); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+/* 向上滑入 */
+@keyframes slideUp {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+/* 向下滑入 */
+@keyframes slideDown {
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+/* ===== 特效动画 ===== */
+
+/* 缓慢缩放 (背景) */
+@keyframes slowZoom {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.05); }
+}
+
+/* 光脉�?*/
+@keyframes lightPulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.85; }
+}
+
+/* 蜡烛闪烁 */
+@keyframes candleFlicker {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    25% { opacity: 0.9; transform: scale(1.01); }
+    50% { opacity: 0.95; transform: scale(0.99); }
+    75% { opacity: 0.88; transform: scale(1.02); }
+}
+
+/* 发光脉冲 */
+@keyframes glowPulse {
+    0%, 100% { opacity: 0.8; transform: translate(-50%, -50%) scale(1); }
+    50% { opacity: 1; transform: translate(-50%, -50%) scale(1.05); }
+}
+
+/* 边框旋转 */
+@keyframes rotateBorder {
+    to { transform: rotate(360deg); }
+}
+
+/* 流光效果 */
+@keyframes flowLight {
+    0% { transform: translateX(-50%) translateY(-50%) rotate(0deg); }
+    100% { transform: translateX(50%) translateY(50%) rotate(0deg); }
+}
+
+/* ===== 粒子动画 ===== */
+
+@keyframes floatParticle {
+    0% {
+        transform: translateY(110vh) translateX(0) scale(0.5);
+        opacity: 0;
+    }
+    10% { opacity: 0.6; }
+    90% { opacity: 0.4; }
+    100% {
+        transform: translateY(-10vh) translateX(30px) scale(0.8);
+        opacity: 0;
+    }
+}
+
+/* ===== 文字动画 ===== */
+
+/* 打字机光标闪�?*/
+@keyframes blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
+}
+
+/* 文字渐显 */
+@keyframes typewriter {
+    from { clip-path: inset(0 100% 0 0); }
+    to { clip-path: inset(0 0 0 0); }
+}
+
+/* ===== 加载动画 ===== */
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+}
+
+@keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+}
+
+/* ===== 动画�?===== */
+
+.animate-fade-in {
+    animation: fadeIn var(--transition-normal) forwards;
+}
+
+.animate-fade-out {
+    animation: fadeOut var(--transition-normal) forwards;
+}
+
+.animate-scale-in {
+    animation: scaleIn var(--transition-normal) forwards;
+}
+
+.animate-slide-up {
+    animation: slideUp var(--transition-normal) forwards;
+}
+
+.animate-slide-down {
+    animation: slideDown var(--transition-normal) forwards;
+}
+
+.animate-spin {
+    animation: spin 1s linear infinite;
+}
+
+.animate-pulse {
+    animation: pulse 2s ease-in-out infinite;
+}
+
+.animate-shimmer {
+    background: linear-gradient(
+        90deg,
+        transparent 0%,
+        rgba(224, 224, 224, 0.1) 50%,
+        transparent 100%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 2s linear infinite;
+}

@@ -1,0 +1,7587 @@
+{
+  "totalDeclarations": 946,
+  "calledCount": 936,
+  "uncalledCount": 10,
+  "called": [
+    {
+      "name": "isUsingOfficialModel",
+      "line": 149,
+      "eventHandler": false,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "updateOfficialModelStatus",
+      "line": 159,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getBaseUrl",
+      "line": 176,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "matchProvider",
+      "line": 181,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "handleTTSProviderChange",
+      "line": 325,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "populateTTSVoices",
+      "line": 373,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "guessGenderFromVoice",
+      "line": 451,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "setDefaultEdgeTTSVoices",
+      "line": 458,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "populateVoiceSelectsFromList",
+      "line": 485,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "populateSingleVoiceSelect",
+      "line": 506,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "loadTTSConfig",
+      "line": 576,
+      "eventHandler": false,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "saveTTSConfig",
+      "line": 649,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "testTTSConnection",
+      "line": 717,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showEdgeTTSHelp",
+      "line": 811,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "handleRequest",
+      "line": 819,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateSupertonicLoadProgress",
+      "line": 834,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "checkSupertonicStatus",
+      "line": 864,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "fetchModelList",
+      "line": 1080,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getImageBaseUrl",
+      "line": 1215,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "matchImageProvider",
+      "line": 1220,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "fetchImageModelList",
+      "line": 1259,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getVideoBaseUrl",
+      "line": 1406,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "matchVideoProvider",
+      "line": 1411,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "generateVideoWithAgnes",
+      "line": 1531,
+      "eventHandler": false,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showMemorialModal",
+      "line": 1604,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "hideMemorialModal",
+      "line": 1611,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "saveBio",
+      "line": 1645,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "loadBio",
+      "line": 1654,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showUserInfoModal",
+      "line": 1660,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "hideUserInfoModal",
+      "line": 1709,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "userInfoKeydownHandler",
+      "line": 1715,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getAnimLabel",
+      "line": 1754,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "closeModelTestPage",
+      "line": 1787,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "onModelLoaded",
+      "line": 1794,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "initModelTest",
+      "line": 1801,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateTestMotionButtons",
+      "line": 1827,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateTestSkinButtons",
+      "line": 1847,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "matchAction",
+      "line": 1867,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "testAiControl",
+      "line": 1880,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "destroyModelTest",
+      "line": 1967,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "buildPortraitPool",
+      "line": 2050,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "addChar",
+      "line": 2054,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "initGachaState",
+      "line": 2116,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "saveGachaState",
+      "line": 2143,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateGachaUI",
+      "line": 2147,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "pullGacha",
+      "line": 2183,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "escapeHtml",
+      "line": 2240,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "start",
+      "line": 2317,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "stop",
+      "line": 2341,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "resetUI",
+      "line": 2348,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "SCE",
+      "line": 2385,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "read",
+      "line": 3006,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "estimateTokens",
+      "line": 3154,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getAuthorNoteContent",
+      "line": 3286,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getAuthorNoteFrequency",
+      "line": 3291,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getAuthorNoteDepth",
+      "line": 3296,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "shouldInjectAuthorNote",
+      "line": 3301,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "buildMemorySummary",
+      "line": 3309,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "extractSummaryFromMessages",
+      "line": 3335,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "addKeyEvent",
+      "line": 3361,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "setPlayerProfile",
+      "line": 3366,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "addPlayerDecision",
+      "line": 3371,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "extractPlayerDecisions",
+      "line": 3376,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "isDuplicateKeyEvent",
+      "line": 3388,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "detectKeyEventsFromContent",
+      "line": 3413,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "calculateImportance",
+      "line": 3466,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "normalizeAffection",
+      "line": 3525,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getAffection",
+      "line": 3534,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getAffectionLevel",
+      "line": 3544,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getTotalAffection",
+      "line": 3549,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "modifyAffection",
+      "line": 3554,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "addAffection",
+      "line": 3572,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "detectAffectionChanges",
+      "line": 3612,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "checkAffectionThresholds",
+      "line": 3663,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "saveAffectionData",
+      "line": 3693,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "modifyPlayerAttribute",
+      "line": 3701,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updatePlayerAttributesOnTimePass",
+      "line": 3712,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "detectAttributeChanges",
+      "line": 3722,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "useItemOnAttributes",
+      "line": 3750,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updatePlayerAttributeUI",
+      "line": 3765,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "addItemToInventory",
+      "line": 3801,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "removeItemFromInventory",
+      "line": 3820,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "hasItem",
+      "line": 3831,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "useItem",
+      "line": 3835,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getItemName",
+      "line": 3925,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "detectItemAcquisition",
+      "line": 3930,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "detectItemLoss",
+      "line": 3990,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getInventoryDescriptions",
+      "line": 4038,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "markItemNew",
+      "line": 4050,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateInventoryUI",
+      "line": 4060,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showItemDetail",
+      "line": 4192,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "closeItemDetail",
+      "line": 4266,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "discardItem",
+      "line": 4271,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "canCraft",
+      "line": 4286,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getMaterialCount",
+      "line": 4298,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "craftItem",
+      "line": 4303,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showCraftSuccessAnimation",
+      "line": 4330,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderCraftingUI",
+      "line": 4343,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showCraftDetail",
+      "line": 4397,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "closeCraftDetail",
+      "line": 4431,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getNPCRelationship",
+      "line": 4437,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "setNPCRelationship",
+      "line": 4442,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "modifyNPCRelationship",
+      "line": 4448,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getNPCRelationshipPrompt",
+      "line": 4457,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "detectNPCRelationshipChanges",
+      "line": 4480,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "extractContextTags",
+      "line": 4498,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "isRegexKey",
+      "line": 4521,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "matchKey",
+      "line": 4525,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "checkSelectiveLogic",
+      "line": 4541,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "queryLorebookRecursive",
+      "line": 4562,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "scan",
+      "line": 4568,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "queryLorebook",
+      "line": 4625,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "queryLorebookWithPositions",
+      "line": 4639,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "checkLorebookTrigger",
+      "line": 4653,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "resolveNpcId",
+      "line": 4668,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "EE",
+      "line": 4680,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "advanceTime",
+      "line": 4951,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "smartAdvanceTime",
+      "line": 4969,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "initChatBridge",
+      "line": 5012,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "syncGameStateFromBridge",
+      "line": 5041,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "initLive2D",
+      "line": 5061,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "loadNPCModel",
+      "line": 5123,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "parseActionTagAndDisplay",
+      "line": 5192,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showPortraitLoading",
+      "line": 5206,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "hidePortraitLoading",
+      "line": 5219,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showPortraitError",
+      "line": 5234,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showPortraitPlaceholder",
+      "line": 5249,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "applyTheme",
+      "line": 5267,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "setFontSize",
+      "line": 5288,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderThemeOptions",
+      "line": 5296,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateThemeSelector",
+      "line": 5314,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "detectEmotion",
+      "line": 5347,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateCharacterEmotion",
+      "line": 5395,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getCustomEmotionMappings",
+      "line": 5427,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "addCustomRelationCard",
+      "line": 5448,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getCustomRelations",
+      "line": 5507,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getNpcNameById",
+      "line": 5522,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "addCustomBgmEntry",
+      "line": 5533,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getCustomBgmMap",
+      "line": 5592,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "addCustomAchievementCard",
+      "line": 5604,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getCustomAchievements",
+      "line": 5653,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "initOnInteraction",
+      "line": 5865,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getBGMForScene",
+      "line": 5878,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "tryAutoBGM",
+      "line": 5893,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "addChronicleEntry",
+      "line": 5922,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderChronicle",
+      "line": 5935,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "loadPersonas",
+      "line": 5972,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "savePersonas",
+      "line": 5986,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderPersonaList",
+      "line": 5995,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "addPersona",
+      "line": 6022,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "editPersona",
+      "line": 6033,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "deletePersona",
+      "line": 6046,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "activatePersona",
+      "line": 6053,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getActivePersona",
+      "line": 6059,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "savePersonaEditor",
+      "line": 6064,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "cancelPersonaEditor",
+      "line": 6095,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderPromptTemplateList",
+      "line": 6100,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "selectPromptTemplate",
+      "line": 6124,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "editPromptTemplate",
+      "line": 6130,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "findPromptTemplate",
+      "line": 6141,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "savePromptTemplate",
+      "line": 6147,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "deletePromptTemplate",
+      "line": 6171,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "saveCustomPromptTemplates",
+      "line": 6179,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "exportPromptTemplates",
+      "line": 6183,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "importPromptTemplates",
+      "line": 6192,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "openPromptManager",
+      "line": 6221,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "closePromptManager",
+      "line": 6229,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getTimePeriod",
+      "line": 6262,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "generateWeather",
+      "line": 6273,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "initGameState",
+      "line": 6307,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getSaveSlotKey",
+      "line": 6334,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "buildSaveData",
+      "line": 6338,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "restoreSaveData",
+      "line": 6371,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "saveGameState",
+      "line": 6569,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "saveToSlot",
+      "line": 6576,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "loadFromSlot",
+      "line": 6587,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getSlotPreview",
+      "line": 6601,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "autoSave",
+      "line": 6619,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "loadAutoSave",
+      "line": 6626,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "getNPCData",
+      "line": 6640,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "exportSave",
+      "line": 6845,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "importSave",
+      "line": 6859,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "restoreGameState",
+      "line": 6878,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "WTS",
+      "line": 6892,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "initWorldTree",
+      "line": 7066,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "worldTreeManualSave",
+      "line": 7072,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "worldTreeBranch",
+      "line": 7081,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "worldTreeLoad",
+      "line": 7088,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "worldTreeAutoSave",
+      "line": 7103,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "worldTreeOnMessage",
+      "line": 7110,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "openWorldTreePanel",
+      "line": 7118,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "closeWorldTreePanel",
+      "line": 7126,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderWorldTreePanel",
+      "line": 7131,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "loadWorldTreeNode",
+      "line": 7160,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "branchWorldTreeNode",
+      "line": 7173,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "saveToWorldTree",
+      "line": 7185,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateGameStateUI",
+      "line": 7198,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "detectArrival",
+      "line": 7241,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "registerLocationAliases",
+      "line": 7264,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "detectLocationChange",
+      "line": 7276,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "processAIResponse",
+      "line": 7308,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "changeLocation",
+      "line": 7344,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "detectPlayerStatus",
+      "line": 7364,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "startGame",
+      "line": 7410,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "showExitConfirm",
+      "line": 7730,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "hideExitConfirm",
+      "line": 7741,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showToast",
+      "line": 7750,
+      "eventHandler": false,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "hideToastElement",
+      "line": 7810,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showSuccessToast",
+      "line": 7818,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showErrorToast",
+      "line": 7822,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showWarningToast",
+      "line": 7826,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showInfoToast",
+      "line": 7830,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showConfirmModal",
+      "line": 7837,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "hideConfirmModal",
+      "line": 7851,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "addLongPressListener",
+      "line": 7861,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "cancel",
+      "line": 7876,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "end",
+      "line": 7879,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "exitGame",
+      "line": 7895,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "updateNPCBar",
+      "line": 7973,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateAffectionBar",
+      "line": 7978,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateNPCList",
+      "line": 7996,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "detectNPCSceneChanges",
+      "line": 8026,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateStoryPanel",
+      "line": 8144,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "switchNPC",
+      "line": 8153,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "stripActionTags",
+      "line": 8180,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "parseMessageContent",
+      "line": 8188,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "classifyAsDialogue",
+      "line": 8243,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "parseNPCMessageContent",
+      "line": 8332,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "splitBySentences",
+      "line": 8463,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "isClearlyNarration",
+      "line": 8479,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "pushSegment",
+      "line": 8567,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "flushSegment",
+      "line": 8579,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "loadTransformersJS",
+      "line": 8658,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "detectWebGPU",
+      "line": 8688,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "detectWASMSupport",
+      "line": 8708,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "formatBytes",
+      "line": 8742,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "SupertonicEngineClass",
+      "line": 8751,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "finishOne",
+      "line": 8996,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getInstance",
+      "line": 9046,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "isChinese",
+      "line": 9080,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "NPCTTSClass",
+      "line": 9084,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "loadVoices",
+      "line": 9098,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getNPCGender",
+      "line": 9219,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "classifyMessageType",
+      "line": 9239,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "resolveTTSVoice",
+      "line": 9248,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getTTSVoiceOverride",
+      "line": 9284,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getTTSVoiceId",
+      "line": 9332,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "handleTTSButtonClick",
+      "line": 9340,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "stopCurrentTTSAudio",
+      "line": 9404,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "speakWithEdgeTTS",
+      "line": 9413,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "speakWithTTS",
+      "line": 9435,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "openTTSSettings",
+      "line": 9505,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "closeTTSSettings",
+      "line": 9513,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "createTTSSettingsPanel",
+      "line": 9520,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "populateTTSSettings",
+      "line": 9579,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "playTypewriterSound",
+      "line": 9612,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "init",
+      "line": 5756,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "loadBGM",
+      "line": 9660,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "playBGM",
+      "line": 9669,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "pauseBGM",
+      "line": 9678,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "stopBGM",
+      "line": 9684,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "playClick",
+      "line": 5792,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "playSend",
+      "line": 9697,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "setBGMVolume",
+      "line": 9703,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "setUIVolume",
+      "line": 9710,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "muteAll",
+      "line": 9716,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "unmuteAll",
+      "line": 9721,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "isPlaying",
+      "line": 9728,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "_showContinueIndicator",
+      "line": 9760,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "typewriterShow",
+      "line": 9768,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "_completeCurrentTyping",
+      "line": 9801,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "_finishTypewriter",
+      "line": 9854,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showNext",
+      "line": 9879,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "finishTypingPart",
+      "line": 9942,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "typeLoop",
+      "line": 9987,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "findChatMsgIndex",
+      "line": 10035,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "addNarrationMessage",
+      "line": 10054,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "addNPCMessage",
+      "line": 10081,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "generateQuickReplies",
+      "line": 10142,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showQuickReplies",
+      "line": 10225,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "hideAllQuickReplies",
+      "line": 10248,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateQuickRepliesForInputMode",
+      "line": 10254,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "applyCustomGameMode",
+      "line": 10265,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "lockGameOrientation",
+      "line": 10277,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "unlockGameOrientation",
+      "line": 10301,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateRotatePrompt",
+      "line": 10309,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getCustomQuickReplyTemplates",
+      "line": 10321,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "matchQuickReplyTemplate",
+      "line": 10337,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "triggerQuickReplies",
+      "line": 10380,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "addUserMessage",
+      "line": 10395,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "addSystemMessage",
+      "line": 10417,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "editMessage",
+      "line": 10427,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "markMessagesDeprecated",
+      "line": 10501,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "deleteMessage",
+      "line": 10514,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "retryMessage",
+      "line": 10527,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateSwipeNav",
+      "line": 10624,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "swipeToVersion",
+      "line": 10667,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "addGameEventCard",
+      "line": 10685,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "addTypingIndicator",
+      "line": 10754,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "removeTypingIndicator",
+      "line": 10781,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "scrollToBottom",
+      "line": 10786,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "loadDialogueBgConfig",
+      "line": 10806,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "saveDialogueBgConfig",
+      "line": 10822,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "applyDialogueBg",
+      "line": 10835,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "resolveBgPath",
+      "line": 10921,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "initDialogueBgControls",
+      "line": 11058,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "restoreDialogueBgUI",
+      "line": 11110,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "markEditorDirty",
+      "line": 11161,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "openCustomChapterEditor",
+      "line": 11167,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "finishOpen",
+      "line": 11177,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "closeCustomChapterEditor",
+      "line": 11216,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "toggleEditorSection",
+      "line": 11233,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateSectionCount",
+      "line": 11243,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateAllSectionCounts",
+      "line": 11255,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "initEditorSections",
+      "line": 11261,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "saveCustomDraft",
+      "line": 11275,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "loadCustomDraft",
+      "line": 11289,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "clearCustomDraft",
+      "line": 11300,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "scheduleCustomDraftSave",
+      "line": 11309,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getCustomConfig",
+      "line": 11317,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "saveCustomConfig",
+      "line": 11470,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "validateCustomScript",
+      "line": 11517,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "clearValidationErrors",
+      "line": 11564,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showValidationErrors",
+      "line": 11569,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "openScriptPreview",
+      "line": 11618,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "closeScriptPreview",
+      "line": 11708,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "loadCustomConfig",
+      "line": 11713,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "addCustomNpcCard",
+      "line": 11952,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "removeEditorCard",
+      "line": 12024,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "refreshRelationNpcOptions",
+      "line": 12047,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "removeNpcCard",
+      "line": 12076,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "setNpcGender",
+      "line": 12084,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getNpcGender",
+      "line": 12092,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateNpcVoiceButtonsVisibility",
+      "line": 12097,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "openNpcVoiceSettings",
+      "line": 12105,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "populateEdgeTTSPopupVoices",
+      "line": 12209,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getSelectedVoiceValue",
+      "line": 12319,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "inferNpcGender",
+      "line": 12415,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "addCustomItemCard",
+      "line": 12431,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "removeItemCard",
+      "line": 12469,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getCustomItems",
+      "line": 12473,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "addCustomEventCard",
+      "line": 12495,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "removeEventCard",
+      "line": 12550,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "applyQuickTemplate",
+      "line": 12572,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "addEventCondition",
+      "line": 12588,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "addEventConditionToContainer",
+      "line": 12595,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "addEventAction",
+      "line": 12612,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "addEventActionToContainer",
+      "line": 12619,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getCustomEvents",
+      "line": 12636,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "addCustomQuickReplyCard",
+      "line": 12685,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getCustomQuickReplies",
+      "line": 12725,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getNarrativePerspective",
+      "line": 12745,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getUncertaintyLevel",
+      "line": 12750,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "rollDice",
+      "line": 12755,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "openPortraitImageEditor",
+      "line": 12759,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "openLive2dSelector",
+      "line": 12763,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "autoFillNpcFields",
+      "line": 12767,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateNpcPortraitBtn",
+      "line": 12787,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "restoreNpcPortraitData",
+      "line": 12829,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "openPortraitPicker",
+      "line": 12879,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "closePicker",
+      "line": 12902,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "destroyPortraitPickerApps",
+      "line": 12919,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderPortraitPickerGrid",
+      "line": 12929,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderLive2dPreview",
+      "line": 12996,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "handleFailure",
+      "line": 13013,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "initPreview",
+      "line": 13023,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "cleanup",
+      "line": 13068,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "selectPortraitItem",
+      "line": 13091,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "uploadPortraitImage",
+      "line": 13104,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "uploadPortraitLive2d",
+      "line": 13139,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "addLoreEntry",
+      "line": 13190,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateLoreEntryNumbers",
+      "line": 13297,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateAddLoreEntryBtn",
+      "line": 13305,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "clearLoreEntries",
+      "line": 13310,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getLoreEntries",
+      "line": 13317,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "addLocationEntry",
+      "line": 13349,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateLocationEntryNumbers",
+      "line": 13394,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateAddLocationBtn",
+      "line": 13404,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "clearLocationEntries",
+      "line": 13410,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getLocationEntries",
+      "line": 13415,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getBgImageMap",
+      "line": 13453,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateAllEmptyStates",
+      "line": 13466,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "resetCustomEditor",
+      "line": 13515,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "buildExportScriptData",
+      "line": 13604,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "downloadScriptFile",
+      "line": 13752,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "exportScript",
+      "line": 13768,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "validateScriptData",
+      "line": 13788,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "migrateScriptData",
+      "line": 13819,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "loadImportedScript",
+      "line": 13931,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "importScriptFile",
+      "line": 14154,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "triggerImportDialog",
+      "line": 14185,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showImportPreview",
+      "line": 14205,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "escHtmlSimple",
+      "line": 14253,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "closeImportPreview",
+      "line": 14258,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "initImportPreviewHandlers",
+      "line": 14264,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "addCustomNpcCardWithData",
+      "line": 14294,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "addLocationEntryWithData",
+      "line": 14346,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "syncBgUrl",
+      "line": 14412,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "addLoreEntryWithData",
+      "line": 14466,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showNotification",
+      "line": 14554,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "normalizeGeneratedScript",
+      "line": 14570,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "expandEditorSectionsWithContent",
+      "line": 14697,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "highlightGeneratedContent",
+      "line": 14723,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showGenProgress",
+      "line": 14740,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateGenProgress",
+      "line": 14760,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "completeGenProgress",
+      "line": 14771,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "hideGenProgress",
+      "line": 14787,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "generateImage",
+      "line": 14806,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "constructPrompt",
+      "line": 14839,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "_updateAutoGenBgToggleState",
+      "line": 14854,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "_updateAutoGenPortraitToggleState",
+      "line": 14869,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "APIError",
+      "line": 14883,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "JSONParseError",
+      "line": 14886,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "ValidationError",
+      "line": 14889,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "GenerationError",
+      "line": 14892,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "stripJsonComments",
+      "line": 14896,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "generateCustomScript",
+      "line": 15199,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "_generateSceneBackgrounds",
+      "line": 15208,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "_generateCharacterPortraits",
+      "line": 15303,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getCustomScriptsList",
+      "line": 15374,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "saveCustomScriptsList",
+      "line": 15380,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "deleteCustomScript",
+      "line": 15384,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "copyCustomScript",
+      "line": 15390,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getBuiltInScripts",
+      "line": 15408,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "generateDefaultCover",
+      "line": 15461,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "resolveColor",
+      "line": 15467,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "handleCoverImageUpload",
+      "line": 15505,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "initTagSelector",
+      "line": 15521,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "toggleEditorTag",
+      "line": 15538,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "addCustomTag",
+      "line": 15553,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateTagsCount",
+      "line": 15572,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "initScriptFilterBar",
+      "line": 15577,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "openScriptListPanel",
+      "line": 15603,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "closeScriptListPanel",
+      "line": 15611,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderScriptList",
+      "line": 15616,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "startBuiltinGame",
+      "line": 15730,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "loadCustomScriptForEdit",
+      "line": 15737,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "startCustomGame",
+      "line": 15752,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "resetScriptSubsystems",
+      "line": 15771,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "prepareCustomScript",
+      "line": 15795,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "prefixNpcIdInObj",
+      "line": 15840,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "startCustomGameFromConfig",
+      "line": 15916,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "initGameUI",
+      "line": 16211,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "applyFontSize",
+      "line": 16390,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderSaveSlots",
+      "line": 16668,
+      "eventHandler": false,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderWorldTree",
+      "line": 16732,
+      "eventHandler": true,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderWorldTreeNode",
+      "line": 16744,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderNPCRelPanel",
+      "line": 16828,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "exportAllData",
+      "line": 16946,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "backupCurrentData",
+      "line": 17006,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "importAllData",
+      "line": 17019,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "bindPreviewCloseListeners",
+      "line": 17272,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "bindCustomVoiceButtons",
+      "line": 17514,
+      "eventHandler": false,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showOfficialRoutePanel",
+      "line": 17571,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "resetModeSelectorView",
+      "line": 17577,
+      "eventHandler": false,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "startOfficialRoute",
+      "line": 17584,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "openCustomScriptEntry",
+      "line": 17616,
+      "eventHandler": false,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showCustomModeSelector",
+      "line": 17636,
+      "eventHandler": false,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "hideCustomModeSelector",
+      "line": 17643,
+      "eventHandler": false,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "selectCustomMode",
+      "line": 17652,
+      "eventHandler": false,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "sendUserMessage",
+      "line": 17715,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showMissionModal",
+      "line": 17978,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "hideMissionModal",
+      "line": 17999,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateChapterIntro",
+      "line": 18006,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "executeGachaPull",
+      "line": 18337,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showEnvelopeAnimation",
+      "line": 18358,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showTenPullSummary",
+      "line": 18405,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "setGachaButtonsDisabled",
+      "line": 18446,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "playPullVideo",
+      "line": 18457,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "onEnded",
+      "line": 18465,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "onError",
+      "line": 18474,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "showEnvelopeResult",
+      "line": 18497,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "closeEnvelopeResult",
+      "line": 18576,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "generateCharacterPortrait",
+      "line": 18587,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderCharacterList",
+      "line": 18628,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "loadAffectionData",
+      "line": 18830,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getAffectionLevelProgress",
+      "line": 18861,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getAffectionColorClass",
+      "line": 18870,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getAffectionIcon",
+      "line": 18874,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "setPendingAffectionEvent",
+      "line": 18910,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "consumePendingAffectionEvent",
+      "line": 18923,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "loadPendingAffectionEvents",
+      "line": 18932,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "triggerAffectionMilestone",
+      "line": 18939,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "grantMilestoneReward",
+      "line": 18989,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "closeMilestonePopup",
+      "line": 18998,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "sendMail",
+      "line": 19016,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "openMailPanel",
+      "line": 19073,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "closeMailPanel",
+      "line": 19082,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderMailList",
+      "line": 19088,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "openMailDetail",
+      "line": 19133,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateCharDetailAffection",
+      "line": 19186,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateCharChatAffection",
+      "line": 19209,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showCharacterDetail",
+      "line": 19309,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getCharacterMemories",
+      "line": 19394,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "saveCharacterMemory",
+      "line": 19402,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderCharacterMemory",
+      "line": 19416,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getCharacterMails",
+      "line": 19471,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderCharacterMail",
+      "line": 19479,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "_loadDetailLive2DOrFallback",
+      "line": 19517,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "_loadDetailLive2D",
+      "line": 19525,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "destroyDetailLive2D",
+      "line": 19557,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "destroyChatLive2D",
+      "line": 19567,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "loadChatSceneBg",
+      "line": 19582,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "rebuildChatSceneLayers",
+      "line": 19604,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "tryLoadChatLive2D",
+      "line": 19644,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showChatStaticPortrait",
+      "line": 19696,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "loadCharChatHistory",
+      "line": 19735,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "saveCharChatHistory",
+      "line": 19743,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "buildCharChatSystemPrompt",
+      "line": 19749,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "generateMemorySummary",
+      "line": 19791,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderCharChatMessage",
+      "line": 19848,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "formatChatTime",
+      "line": 19904,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "shouldShowTime",
+      "line": 19922,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderCharChatTyping",
+      "line": 19931,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "removeCharChatTyping",
+      "line": 19958,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "openCharacterChat",
+      "line": 19965,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "sendCharChatMessage",
+      "line": 20066,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "_streamScheduleUpdate",
+      "line": 20187,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "readChunk",
+      "line": 20205,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "finishStream",
+      "line": 20279,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateChatSendBtn",
+      "line": 20334,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showGachaCollection",
+      "line": 20368,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "tryInitLive2D",
+      "line": 20427,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "buildBookSystemPrompt",
+      "line": 20450,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "buildBookApiMessages",
+      "line": 20527,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "buildBookContinueApiMessages",
+      "line": 20568,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "parseBookContent",
+      "line": 20626,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderBookContent",
+      "line": 20705,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "handleBookErrorAction",
+      "line": 20755,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "generateBook",
+      "line": 20767,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "generateStoryboardFromBook",
+      "line": 20947,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "generateVideoFromStoryboard",
+      "line": 20984,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "loadShelf",
+      "line": 21020,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "saveShelf",
+      "line": 21027,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "saveBookToShelf",
+      "line": 21031,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "deleteBookFromShelf",
+      "line": 21042,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getReaderPrefs",
+      "line": 21049,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "saveReaderPrefs",
+      "line": 21070,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "loadBookmarks",
+      "line": 21074,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "saveBookmarks",
+      "line": 21081,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "addBookmark",
+      "line": 21085,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "openBookShelf",
+      "line": 21101,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "closeBookShelf",
+      "line": 21120,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "openAnnouncementModal",
+      "line": 21136,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "closeAnnouncementModal",
+      "line": 21141,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderShelf",
+      "line": 21146,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "openBookReader",
+      "line": 21187,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "closeBookReader",
+      "line": 21210,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "startToolbarAutoHide",
+      "line": 21219,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "stopToolbarAutoHide",
+      "line": 21233,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "closeAllPanels",
+      "line": 21240,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "togglePanel",
+      "line": 21247,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderReaderContent",
+      "line": 21255,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderTocList",
+      "line": 21288,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderBookmarkList",
+      "line": 21303,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "applyReaderPrefs",
+      "line": 21324,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateReaderProgress",
+      "line": 21406,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "scrollToChapter",
+      "line": 21448,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "navigateChapter",
+      "line": 21470,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "toggleToolbarVisibility",
+      "line": 21479,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "toggleReaderOrientation",
+      "line": 21497,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "startAutoScroll",
+      "line": 21520,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "stopAutoScroll",
+      "line": 21546,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "startAutoScrollIfNeeded",
+      "line": 21553,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "paginateContent",
+      "line": 21559,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderCurlPage",
+      "line": 21679,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "turnToNextPage",
+      "line": 21699,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "turnToPrevPage",
+      "line": 21740,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showChapterTitleIfNeeded",
+      "line": 21761,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "downloadBookAsTXT",
+      "line": 21780,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "initBookEvents",
+      "line": 21819,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "handleReaderBodyArea",
+      "line": 21973,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "cwSwitchApp",
+      "line": 22397,
+      "eventHandler": true,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "openCreatorWars",
+      "line": 22433,
+      "eventHandler": false,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "closeCreatorWars",
+      "line": 22450,
+      "eventHandler": false,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "renderSettingsContent",
+      "line": 22466,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "switchCwSettingsMode",
+      "line": 22533,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderWeChatContent",
+      "line": 22622,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getAvatar",
+      "line": 22694,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getNavIcon",
+      "line": 22699,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getDiscoverIcon",
+      "line": 22709,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getMeIcon",
+      "line": 22723,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getSettingsIcon",
+      "line": 22733,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderChatList",
+      "line": 22761,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderChatDetail",
+      "line": 22793,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "appendChatBubble",
+      "line": 22850,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "_showTypingIndicator",
+      "line": 22862,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "_removeTypingIndicator",
+      "line": 22885,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "_buildWeChatMessages",
+      "line": 22891,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "_triggerWeChatAIReply",
+      "line": 22909,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "_triggerSingleAIReply",
+      "line": 22939,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "_triggerGroupAIReply",
+      "line": 23011,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "_updateWeChatLastMsg",
+      "line": 23141,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderContactsList",
+      "line": 23160,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderContactDetail",
+      "line": 23187,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderDiscoverList",
+      "line": 23202,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderMomentsDetail",
+      "line": 23229,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderDiscoverPlaceholder",
+      "line": 23259,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderMeList",
+      "line": 23264,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderMeDetail",
+      "line": 23293,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "switchTab",
+      "line": 23321,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderBilibiliContent",
+      "line": 23373,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "avatarLetter",
+      "line": 23424,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showBiliAiCreateModal",
+      "line": 23443,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderHomeGrid",
+      "line": 23579,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderVideoDetail",
+      "line": 23611,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "buildCommentsHtml",
+      "line": 23617,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "postComment",
+      "line": 23667,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderDynamicTab",
+      "line": 23758,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderMsgTab",
+      "line": 23776,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderMsgContent",
+      "line": 23784,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderDmChat",
+      "line": 23829,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "sendDm",
+      "line": 23864,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderMeTab",
+      "line": 23939,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "bindGridEvents",
+      "line": 23958,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "_biliRebindTabEvents",
+      "line": 23994,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "dyMatchLottie",
+      "line": 24683,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "dyMatchBgm",
+      "line": 24691,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "dyPlayBgm",
+      "line": 24698,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "dyStopBgm",
+      "line": 24702,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "dySetBgmVolume",
+      "line": 24705,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "dyBgmDuck",
+      "line": 24710,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "dyBgmUnduck",
+      "line": 24714,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "dyActivateAudio",
+      "line": 24723,
+      "eventHandler": true,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "dyShowSubtitle",
+      "line": 24743,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "dyHideSubtitle",
+      "line": 24761,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "dyToggleMute",
+      "line": 24767,
+      "eventHandler": true,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "dyStartTts",
+      "line": 24788,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "dyStopTts",
+      "line": 24818,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "dyPlayVideoAudio",
+      "line": 24823,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "dyAnchorFetchNews",
+      "line": 24861,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "dyAnchorGenerateScript",
+      "line": 24896,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "dyAnchorComposeVideo",
+      "line": 24925,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "dyAnchorAutoRun",
+      "line": 24971,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "dyAnchorRunWithTopic",
+      "line": 25009,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderDouyinContent",
+      "line": 25031,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getAvatarColor",
+      "line": 25301,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "dyNextVideo",
+      "line": 25305,
+      "eventHandler": true,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "dyPrevVideo",
+      "line": 25312,
+      "eventHandler": true,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "dyUpdateSlideContent",
+      "line": 25319,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "dyToggleLike",
+      "line": 25387,
+      "eventHandler": true,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "dyToggleBookmark",
+      "line": 25402,
+      "eventHandler": true,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "dyToggleFollow",
+      "line": 25411,
+      "eventHandler": true,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "dyOpenComments",
+      "line": 25421,
+      "eventHandler": true,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "dyCloseComments",
+      "line": 25425,
+      "eventHandler": false,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "dySendComment",
+      "line": 25429,
+      "eventHandler": true,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "dySwitchNav",
+      "line": 25484,
+      "eventHandler": true,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "dyShowAnchorNotification",
+      "line": 25513,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "dyAnchorAutoCreate",
+      "line": 25536,
+      "eventHandler": true,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "dyOpenPublish",
+      "line": 25559,
+      "eventHandler": true,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "dyClosePublish",
+      "line": 25563,
+      "eventHandler": true,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "dyStartCreate",
+      "line": 25575,
+      "eventHandler": true,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "dySelectOption",
+      "line": 25708,
+      "eventHandler": true,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "dyBindEvents",
+      "line": 25716,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderMailContent",
+      "line": 25734,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderFolders",
+      "line": 25776,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderEmailList",
+      "line": 25795,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderEmailDetail",
+      "line": 25824,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateUnreadBadge",
+      "line": 25881,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "render",
+      "line": 25898,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getFolderTitle",
+      "line": 25916,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "bindEvents",
+      "line": 25921,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getEmailById",
+      "line": 26019,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "handleAiReply",
+      "line": 26035,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "handleAiSummary",
+      "line": 26078,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "openComposeWindow",
+      "line": 26119,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "closeCompose",
+      "line": 26143,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "handleAiCompose",
+      "line": 26204,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "doCompose",
+      "line": 26235,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderTonghuashunContent",
+      "line": 26273,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "thsFormatPrice",
+      "line": 26309,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "thsChangeClass",
+      "line": 26310,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "thsChangeText",
+      "line": 26311,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "thsChangeIcon",
+      "line": 26327,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "thsSparkline",
+      "line": 26331,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "thsBuildSidebar",
+      "line": 26347,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "thsBuildQuoteView",
+      "line": 26367,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "thsBuildStockDetail",
+      "line": 26406,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "thsGenerateKline",
+      "line": 26444,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "thsBuildTradeView",
+      "line": 26486,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "thsBuildNewsView",
+      "line": 26529,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "thsBuildMeView",
+      "line": 26546,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "thsRender",
+      "line": 26578,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "thsBindEvents",
+      "line": 26598,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "thsIsQuestion",
+      "line": 26688,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "thsHandleSearch",
+      "line": 26692,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "thsShowAiLoading",
+      "line": 26716,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "thsShowAiError",
+      "line": 26725,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "thsRenderAiContent",
+      "line": 26730,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "thsStreamAiContent",
+      "line": 26741,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "thsDoAiAnalysis",
+      "line": 26757,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "thsDoAiNewsInterpret",
+      "line": 26793,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "thsDoAiQa",
+      "line": 26826,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "thsDoAiAdvice",
+      "line": 26851,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "bindCreatorWarsBtn",
+      "line": 26897,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showAiWorkbenchToast",
+      "line": 26909,
+      "eventHandler": false,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "cwApiToast",
+      "line": 26962,
+      "eventHandler": false,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "processBuffer",
+      "line": 27178,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "CWE",
+      "line": 27319,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "_srand",
+      "line": 28022,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "_next",
+      "line": 28024,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "_pick",
+      "line": 28025,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "_pad",
+      "line": 28026,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderFrameworkList",
+      "line": 28598,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderMaterialGrid",
+      "line": 28666,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getTypeIcon",
+      "line": 28737,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "escHtml",
+      "line": 28742,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "formatViews",
+      "line": 28747,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "findFrameworkById",
+      "line": 28753,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "findMaterialById",
+      "line": 28763,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "openFrameworkModal",
+      "line": 28774,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "closeFrameworkModal",
+      "line": 28790,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "openMaterialModal",
+      "line": 28794,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "closeMaterialModal",
+      "line": 28810,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "saveCustomFramework",
+      "line": 28893,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "saveCustomMaterial",
+      "line": 29015,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateStudioMaterialGrid",
+      "line": 29085,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateEffectPreview",
+      "line": 29117,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getCwElement",
+      "line": 29176,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getCwElements",
+      "line": 29185,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "cwToast",
+      "line": 29205,
+      "eventHandler": false,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderAgentMgmtPanel",
+      "line": 29218,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "bindAgentMgmtEvents",
+      "line": 29253,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showPortraitSelector",
+      "line": 29310,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showProgressBar",
+      "line": 29359,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "advanceStageText",
+      "line": 29377,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "triggerAgentEventSystem",
+      "line": 29419,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "cwSwitchView",
+      "line": 29422,
+      "eventHandler": false,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "showStudioArea",
+      "line": 29434,
+      "eventHandler": false,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "switchStudioPanel",
+      "line": 29452,
+      "eventHandler": false,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "renderMessageList",
+      "line": 29477,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showMessageDetail",
+      "line": 29515,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderMsgPopupList",
+      "line": 29550,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "openMsgPopup",
+      "line": 29586,
+      "eventHandler": false,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "closeMsgPopup",
+      "line": 29645,
+      "eventHandler": false,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "openFavoritesPopup",
+      "line": 29659,
+      "eventHandler": false,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "closeFavoritesPopup",
+      "line": 29699,
+      "eventHandler": false,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "openHistoryPopup",
+      "line": 29709,
+      "eventHandler": false,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "closeHistoryPopup",
+      "line": 29749,
+      "eventHandler": false,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "openNotifyPopup",
+      "line": 29759,
+      "eventHandler": false,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "closeNotifyPopup",
+      "line": 29796,
+      "eventHandler": false,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "refreshMessages",
+      "line": 29806,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateInfluenceDisplay",
+      "line": 29810,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderOrders",
+      "line": 29818,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "restoreStudioView",
+      "line": 29824,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderDanmakuItems",
+      "line": 29866,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "appendDanmakuItem",
+      "line": 29878,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderPinnedDanmaku",
+      "line": 29899,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderCommentItems",
+      "line": 29911,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateMetricsPanel",
+      "line": 29937,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateManipulatePanel",
+      "line": 29990,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderManipulationHistory",
+      "line": 30004,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderRecommendVideos",
+      "line": 30026,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updatePlayInfo",
+      "line": 30053,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "restorePlatformView",
+      "line": 30062,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "initPlatformView",
+      "line": 30067,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showInputDialog",
+      "line": 30071,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "close",
+      "line": 30088,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showSelectDialog",
+      "line": 30102,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "executeOperation",
+      "line": 30156,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "showResult",
+      "line": 30218,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "publishVideo",
+      "line": 30272,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "generateAITitle",
+      "line": 30276,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "generateAIArticle",
+      "line": 30340,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "generateHomeVideos",
+      "line": 30372,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "generateInitialAgentContent",
+      "line": 30375,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showVideoDetail",
+      "line": 30378,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderHomePage",
+      "line": 30383,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderVideoDetailView",
+      "line": 30386,
+      "eventHandler": false,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "showOtherVideoInfo",
+      "line": 30389,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateBottomMetrics",
+      "line": 30392,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateDataCenterMetrics",
+      "line": 30406,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderProfilePage",
+      "line": 30430,
+      "eventHandler": false,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "renderProfileMessages",
+      "line": 30463,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderFollowingList",
+      "line": 30497,
+      "eventHandler": false,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "renderMyVideos",
+      "line": 30529,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderEarningsHistory",
+      "line": 30552,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "initProfileTabs",
+      "line": 30571,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "initCreatorCenterCards",
+      "line": 30595,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "startAgentLive",
+      "line": 30620,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "endAgentLive",
+      "line": 30672,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "addLiveMessage",
+      "line": 30710,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "sendLiveDanmaku",
+      "line": 30720,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderCommentMgmt",
+      "line": 30881,
+      "eventHandler": false,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "bindCmEvents",
+      "line": 30937,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateBatchBar",
+      "line": 31005,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "initCmFilters",
+      "line": 31012,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "doSearch",
+      "line": 31225,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "initNavbarIcons",
+      "line": 31306,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "closeAllDropdowns",
+      "line": 31312,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateUserPanel",
+      "line": 31406,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateMsgBadge",
+      "line": 31420,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateNotifyDot",
+      "line": 31436,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "initSettings",
+      "line": 31456,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "loadSettings",
+      "line": 31458,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "saveSettingsToStorage",
+      "line": 31464,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "applySettingsToUI",
+      "line": 31470,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "bindSettingsEvents",
+      "line": 31484,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "initDoujia",
+      "line": 31531,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateEstimate",
+      "line": 31536,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateBalance",
+      "line": 31544,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderVideoGrid",
+      "line": 31549,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderDoujiaHistory",
+      "line": 31646,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderAchievements",
+      "line": 31683,
+      "eventHandler": false,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "checkAchievements",
+      "line": 31697,
+      "eventHandler": false,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "initSearch",
+      "line": 31712,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "renderNotifyList",
+      "line": 31802,
+      "eventHandler": false,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "initProfileButtons",
+      "line": 31824,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "navigateToPage",
+      "line": 31900,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "navigateBack",
+      "line": 31910,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "initNavUtils",
+      "line": 31919,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateTimer",
+      "line": 31951,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "setDigit",
+      "line": 31972,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "getUserLevel",
+      "line": 31999,
+      "eventHandler": false,
+      "windowApi": true,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "loadUserProfile",
+      "line": 32003,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "saveUserProfile",
+      "line": 32026,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateLevelUI",
+      "line": 32036,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "persistSession",
+      "line": 32055,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "tick",
+      "line": 32064,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "startTimer",
+      "line": 32073,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "stopTimer",
+      "line": 32078,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "savePlayerName",
+      "line": 32118,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "keydownHandler",
+      "line": 32129,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateCharPanel",
+      "line": 32176,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "processDialogueQueue",
+      "line": 32196,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showGalgameDialogue",
+      "line": 32292,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updatePortrait",
+      "line": 32318,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "showPlaceholderFallback",
+      "line": 32330,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "ensurePortraitVisible",
+      "line": 32403,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateBackground",
+      "line": 32424,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "preloadPortrait",
+      "line": 32483,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "_onTouchStart",
+      "line": 32601,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "_onTouchEnd",
+      "line": 32610,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "advanceGalgameDialogue",
+      "line": 32623,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "updateKeyboardOffset",
+      "line": 32683,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "checkVisible",
+      "line": 5154,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "doShowPrompt",
+      "line": 10283,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": false
+    },
+    {
+      "name": "tapHandler",
+      "line": 19660,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": false,
+      "objectMethod": false
+    },
+    {
+      "name": "confirmByDblClick",
+      "line": 30147,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": false,
+      "objectMethod": false
+    },
+    {
+      "name": "isSupported",
+      "line": 2354,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "get",
+      "line": 2397,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "set",
+      "line": 2398,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "generateStructuredSummary",
+      "line": 3170,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "summarize",
+      "line": 3242,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "getSummary",
+      "line": 3271,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "reset",
+      "line": 3278,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "play",
+      "line": 5676,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "_startPlay",
+      "line": 5686,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "toggle",
+      "line": 5705,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "setVolume",
+      "line": 5716,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "fadeOut",
+      "line": 5721,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "updateUI",
+      "line": 5739,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "_ensureCtx",
+      "line": 5770,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "_playTone",
+      "line": 5775,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "playToggle",
+      "line": 5793,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "playSuccess",
+      "line": 5794,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "playGacha",
+      "line": 5800,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "playGachaRare",
+      "line": 5801,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "playItemGet",
+      "line": 5808,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "playAffectionUp",
+      "line": 5809,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "playOpen",
+      "line": 5810,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "playClose",
+      "line": 5811,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "playError",
+      "line": 5812,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "playAmbient",
+      "line": 5814,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "stopAmbient",
+      "line": 5843,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "setEnabled",
+      "line": 5852,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "_save",
+      "line": 5858,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "perform",
+      "line": 6677,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "performOnEvent",
+      "line": 6704,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "_getAutoSaves",
+      "line": 6711,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "_captureSaveData",
+      "line": 6718,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "_captureThumbnail",
+      "line": 6722,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "deleteAutoSave",
+      "line": 6795,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "renderAutoSaveSlots",
+      "line": 6802,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "speak",
+      "line": 9051,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "pause",
+      "line": 9053,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "resume",
+      "line": 9054,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "getVoices",
+      "line": 9055,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "setVoice",
+      "line": 9056,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "isSpeaking",
+      "line": 9057,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "isPaused",
+      "line": 9058,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "loadModel",
+      "line": 9059,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "isModelLoaded",
+      "line": 9060,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "getLoadStatus",
+      "line": 9061,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "getCacheStatus",
+      "line": 9062,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "clearCache",
+      "line": 9063,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "setRate",
+      "line": 9194,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "setPitch",
+      "line": 9195,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "getSettings",
+      "line": 9198,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "setAutoPlay",
+      "line": 9199,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "setForcePlay",
+      "line": 9200,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "findVoiceByURI",
+      "line": 9201,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "buildPrompt",
+      "line": 14932,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "callAPI",
+      "line": 14949,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "extractJSON",
+      "line": 14980,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "validate",
+      "line": 15017,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "apply",
+      "line": 15023,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "showError",
+      "line": 15090,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "run",
+      "line": 15107,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "getMails",
+      "line": 19031,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "getUnreadCount",
+      "line": 19033,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "markRead",
+      "line": 19035,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "deleteMail",
+      "line": 19040,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "renderUnreadCount",
+      "line": 19046,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "_notify",
+      "line": 19059,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "onChunk",
+      "line": 22964,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "onComplete",
+      "line": 22983,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "destroy",
+      "line": 24075,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "_getCtx",
+      "line": 24198,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "_createOsc",
+      "line": 24257,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "_playTech",
+      "line": 24274,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "_playNews",
+      "line": 24296,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "_playNature",
+      "line": 24321,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "_playWarm",
+      "line": 24350,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "_playCheerful",
+      "line": 24368,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "_playUplifting",
+      "line": 24387,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "_getConfig",
+      "line": 27001,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "request",
+      "line": 27029,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "_enqueue",
+      "line": 27076,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "_processQueue",
+      "line": 27095,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "_executeRequest",
+      "line": 27103,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "_handleStream",
+      "line": 27171,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "_finishRequest",
+      "line": 27230,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "_retryOrFail",
+      "line": 27237,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "_removeFromQueue",
+      "line": 27253,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "_hashMessages",
+      "line": 27270,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "_getCache",
+      "line": 27282,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "_setCache",
+      "line": 27301,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "complete",
+      "line": 29389,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "error",
+      "line": 29400,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "check",
+      "line": 31669,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "transition",
+      "line": 31875,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "push",
+      "line": 31893,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "pop",
+      "line": 31894,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "peek",
+      "line": 31895,
+      "eventHandler": false,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    },
+    {
+      "name": "clear",
+      "line": 31896,
+      "eventHandler": true,
+      "windowApi": false,
+      "reflectCall": true,
+      "objectMethod": true
+    }
+  ],
+  "uncalled": [
+    {
+      "name": "isRecording",
+      "line": 2357,
+      "type": "method",
+      "risk": "medium",
+      "reflectCall": false,
+      "objectMethod": false,
+      "propertyAccess": false
+    },
+    {
+      "name": "getAutoSaves",
+      "line": 6781,
+      "type": "method",
+      "risk": "high",
+      "reflectCall": true,
+      "objectMethod": false,
+      "propertyAccess": false
+    },
+    {
+      "name": "progress_callback",
+      "line": 8791,
+      "type": "method",
+      "risk": "medium",
+      "reflectCall": false,
+      "objectMethod": false,
+      "propertyAccess": false
+    },
+    {
+      "name": "getDevice",
+      "line": 9064,
+      "type": "method",
+      "risk": "medium",
+      "reflectCall": false,
+      "objectMethod": false,
+      "propertyAccess": false
+    },
+    {
+      "name": "getSelectedVoice",
+      "line": 9065,
+      "type": "method",
+      "risk": "medium",
+      "reflectCall": false,
+      "objectMethod": false,
+      "propertyAccess": false
+    },
+    {
+      "name": "getLoadError",
+      "line": 9066,
+      "type": "method",
+      "risk": "high",
+      "reflectCall": false,
+      "objectMethod": false,
+      "propertyAccess": false
+    },
+    {
+      "name": "onNewMail",
+      "line": 19064,
+      "type": "method",
+      "risk": "high",
+      "reflectCall": false,
+      "objectMethod": false,
+      "propertyAccess": false
+    },
+    {
+      "name": "getCurrentVideo",
+      "line": 24176,
+      "type": "method",
+      "risk": "medium",
+      "reflectCall": false,
+      "objectMethod": false,
+      "propertyAccess": false
+    },
+    {
+      "name": "cancelAll",
+      "line": 27263,
+      "type": "method",
+      "risk": "medium",
+      "reflectCall": false,
+      "objectMethod": false,
+      "propertyAccess": false
+    },
+    {
+      "name": "updateStage",
+      "line": 29411,
+      "type": "method",
+      "risk": "medium",
+      "reflectCall": false,
+      "objectMethod": false,
+      "propertyAccess": false
+    }
+  ]
+}

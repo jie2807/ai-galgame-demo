@@ -1,0 +1,13 @@
+- [ ] 角色列表页面所有clamp最小值≤5px，无固定10px+最小值
+- [ ] 角色列表页面768px媒体查询存在并生效
+- [ ] 角色列表页面480px媒体查询存在并生效
+- [ ] 角色列表页面overflow: hidden在所有断点生效，禁止滚动
+- [ ] 角色详情页.chardetail-name vw≥3.0
+- [ ] 角色详情页.chardetail-title vw≥2.0
+- [ ] 角色详情页.chardetail-rarity-name vw≥2.5
+- [ ] 角色详情页.chardetail-label vw≥1.3
+- [ ] 角色详情页.chardetail-value vw≥1.5
+- [ ] 角色详情页.chardetail-fields gap vh≥1.0
+- [ ] 角色详情页.chardetail-field gap vh≥0.4
+- [ ] 角色详情页.chardetail-rarity-line gap vw≥0.8
+- [ ] 角色详情页.chardetail-affection padding vh≥1.2

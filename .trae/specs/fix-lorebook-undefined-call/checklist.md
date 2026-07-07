@@ -1,0 +1,12 @@
+- [ ] `queryLorebookWithPositions` 调用已被内联实现替换（Grep 搜索 `queryLorebookWithPositions` 在 index.html 中无结果）
+- [ ] 内联实现正确遍历 `gameWorldInfo` 并做关键词匹配
+- [ ] 内联实现返回的条目有 `content`、`position`、`depth` 字段
+- [ ] 内联实现处理 `selectiveLogic === 'AND'` 的情况（主关键词 + 次关键词都命中）
+- [ ] 内联实现按 `priority` 降序排序
+- [ ] `gameWorldInfo` 为空时不抛出异常
+- [ ] `gameWorldInfo` 条目无 `keys` 时不抛出异常
+- [ ] 游戏发送消息处有 try/catch 包裹 `chatEngine.sendMessage` 调用
+- [ ] catch 块正确清理 UI 状态（removeTypingIndicator、恢复输入框）
+- [ ] catch 块显示错误 toast
+- [ ] Playwright 验证：启动官方剧本，发送消息，确认不再卡死
+- [ ] Playwright 验证：发送消息后能看到 AI 流式反馈（typing-preview 出现）

@@ -1,0 +1,14 @@
+- [x] 角色立绘区域 HTML 结构已添加到 gamePage 中（id: gameCharacterArea, characterPortrait）
+- [x] 立绘区域 CSS 布局正确，桌面端左侧 30%，移动端顶部或隐藏
+- [x] pixi.js v6.x 通过 CDN 成功引入（index.html L9）
+- [x] pixi-live2d-display 通过 CDN 成功引入（index.html L10）
+- [x] Live2DRenderer 类实现，支持模型加载、销毁、切换（live2d-renderer.js）
+- [x] 测试 Live2D 模型成功加载并显示（live2d-test.html 独立测试页面）
+- [x] ActionTagParser 类实现，能正确解析 [smile]、[wave] 等动作标签（action-tag-parser.js）
+- [x] AI System Prompt 已添加动作标签指令（index.html buildSystemPrompt 方法）
+- [x] AI 回复中的动作标签能正确触发对应的 Live2D 动画（addNPCMessage 函数集成）
+- [x] 未识别的动作标签 fallback 到待机动画（ActionTagParser fallbackAction）
+- [x] NPC 切换时 Live2D 模型正确切换（switchNPC 函数集成）
+- [x] 设置面板中添加了 Live2D 开关选项（index.html settings panel + CSS + 事件处理）
+- [ ] 对话流程完整测试通过：输入 → AI 回复 → 动作解析 → 动画播放（需配置 API 后测试）
+- [ ] 移动端性能测试通过或提供降级方案（需实际设备测试）

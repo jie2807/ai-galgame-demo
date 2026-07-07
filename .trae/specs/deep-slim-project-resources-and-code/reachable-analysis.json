@@ -1,0 +1,203 @@
+{
+  "totalCandidates": 631,
+  "deadCount": 28,
+  "deadBytes": 18132,
+  "dead": [
+    {
+      "name": "createTTSSettingsPanel",
+      "size": 4276,
+      "htmlStart": 946125,
+      "htmlEnd": 950401,
+      "risk": "high"
+    },
+    {
+      "name": "populateTTSSettings",
+      "size": 1709,
+      "htmlStart": 950413,
+      "htmlEnd": 952122,
+      "risk": "high"
+    },
+    {
+      "name": "showGachaCollection",
+      "size": 1645,
+      "htmlStart": 1512302,
+      "htmlEnd": 1513947,
+      "risk": "low"
+    },
+    {
+      "name": "playPullVideo",
+      "size": 1541,
+      "htmlStart": 1418439,
+      "htmlEnd": 1419980,
+      "risk": "medium"
+    },
+    {
+      "name": "initGachaState",
+      "size": 1115,
+      "htmlStart": 562279,
+      "htmlEnd": 563394,
+      "risk": "low"
+    },
+    {
+      "name": "detectArrival",
+      "size": 1089,
+      "htmlStart": 829506,
+      "htmlEnd": 830595,
+      "risk": "medium"
+    },
+    {
+      "name": "copyCustomScript",
+      "size": 809,
+      "htmlStart": 1256222,
+      "htmlEnd": 1257031,
+      "risk": "high"
+    },
+    {
+      "name": "triggerImportDialog",
+      "size": 716,
+      "htmlStart": 1189945,
+      "htmlEnd": 1190661,
+      "risk": "medium"
+    },
+    {
+      "name": "queryLorebook",
+      "size": 630,
+      "htmlStart": 700876,
+      "htmlEnd": 701506,
+      "risk": "low"
+    },
+    {
+      "name": "advanceTime",
+      "size": 506,
+      "htmlStart": 828988,
+      "htmlEnd": 829494,
+      "risk": "low"
+    },
+    {
+      "name": "changeLocation",
+      "size": 464,
+      "htmlStart": 833715,
+      "htmlEnd": 834179,
+      "risk": "medium"
+    },
+    {
+      "name": "_loadDetailLive2DOrFallback",
+      "size": 385,
+      "htmlStart": 1470299,
+      "htmlEnd": 1470684,
+      "risk": "high"
+    },
+    {
+      "name": "openTTSSettings",
+      "size": 381,
+      "htmlStart": 945416,
+      "htmlEnd": 945797,
+      "risk": "high"
+    },
+    {
+      "name": "restoreGameState",
+      "size": 347,
+      "htmlStart": 813586,
+      "htmlEnd": 813933,
+      "risk": "high"
+    },
+    {
+      "name": "getTTSVoiceId",
+      "size": 345,
+      "htmlStart": 935358,
+      "htmlEnd": 935703,
+      "risk": "high"
+    },
+    {
+      "name": "updateLoreEntryNumbers",
+      "size": 337,
+      "htmlStart": 1142215,
+      "htmlEnd": 1142552,
+      "risk": "medium"
+    },
+    {
+      "name": "resolveNpcId",
+      "size": 332,
+      "htmlStart": 702853,
+      "htmlEnd": 703185,
+      "risk": "high"
+    },
+    {
+      "name": "navigateToPage",
+      "size": 329,
+      "htmlStart": 2156369,
+      "htmlEnd": 2156698,
+      "risk": "medium"
+    },
+    {
+      "name": "getNPCRelationship",
+      "size": 240,
+      "htmlStart": 691494,
+      "htmlEnd": 691734,
+      "risk": "high"
+    },
+    {
+      "name": "setPlayerProfile",
+      "size": 213,
+      "htmlStart": 630607,
+      "htmlEnd": 630820,
+      "risk": "medium"
+    },
+    {
+      "name": "setNPCRelationship",
+      "size": 201,
+      "htmlStart": 691746,
+      "htmlEnd": 691947,
+      "risk": "high"
+    },
+    {
+      "name": "getItemName",
+      "size": 133,
+      "htmlStart": 662017,
+      "htmlEnd": 662150,
+      "risk": "medium"
+    },
+    {
+      "name": "showWarningToast",
+      "size": 111,
+      "htmlStart": 860628,
+      "htmlEnd": 860739,
+      "risk": "medium"
+    },
+    {
+      "name": "openPortraitImageEditor",
+      "size": 102,
+      "htmlStart": 1116337,
+      "htmlEnd": 1116439,
+      "risk": "high"
+    },
+    {
+      "name": "openLive2dSelector",
+      "size": 97,
+      "htmlStart": 1116451,
+      "htmlEnd": 1116548,
+      "risk": "high"
+    },
+    {
+      "name": "charChatController",
+      "size": 30,
+      "htmlStart": 1480926,
+      "htmlEnd": 1480956,
+      "risk": "high"
+    },
+    {
+      "name": "_genProgressCurrent",
+      "size": 28,
+      "htmlStart": 1222111,
+      "htmlEnd": 1222139,
+      "risk": "medium"
+    },
+    {
+      "name": "_toastQueue",
+      "size": 21,
+      "htmlStart": 856738,
+      "htmlEnd": 856759,
+      "risk": "medium"
+    }
+  ]
+}

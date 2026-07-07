@@ -1,0 +1,54 @@
+{
+  "_style_suffix": "wide panoramic scene, no characters, no people, no figures, no animals, empty environment, xianxia cultivation theme, semi-realistic digital painting style, ethereal palette, atmospheric lighting, cinematic composition, detailed environment, high quality, no text, no border, no frame",
+  "_size": "3072x1536",
+  "scenes": {
+    "tianxuan-gate": {
+      "name": "天玄宗山门",
+      "prompt": "a majestic immortal sect mountain gate towering into the clouds, the characters 'Tian Xuan' carved on the gate lintel with vigorous calligraphy, mist and clouds swirling around, white cranes soaring in the sky, a thousand-step stone stairway winding up the mountain, abundant spiritual qi, ancient pine trees on both sides, distant peaks shrouded in immortal mist, awe-inspiring grand atmosphere"
+    },
+    "sword-peak": {
+      "name": "剑峰",
+      "prompt": "a towering sword cultivation peak with hundred-zhang sword qi crisscrossing the air, steep cliffs sheared like knife cuts, a sword graveyard at the cliff edge with thousands of broken swords thrust into the rocky crevices left by fallen sword cultivators of past generations, cold piercing sword intent, lone dead trees on the cliff, misty abyss below, solemn and perilous atmosphere"
+    },
+    "pill-hall": {
+      "name": "丹房",
+      "prompt": "a vast alchemy hall of an immortal sect, medicine fragrance lingering in the air, a hundred pill furnaces arranged in rows with flickering firelight reflecting red on the walls, scattered medicinal herbs and pill residue piles, shelves of jade medicine bottles, copper furnace chimneys releasing faint smoke, warm fire-glow atmosphere, alchemist sanctum"
+    },
+    "secret-realm": {
+      "name": "秘境",
+      "prompt": "an ancient secret realm left by primordial cultivators, dense spiritual qi condensing into visible mist, floating islands with ancient ruins and broken palaces, glowing spirit veins running through the terrain, ancient formation fragments on the ground, exotic spirit flowers blooming, mysterious floating crystals, ruins full of opportunity and danger, mystical otherworldly atmosphere"
+    },
+    "frontline-camp": {
+      "name": "前线大营",
+      "prompt": "a vast military camp of the orthodox alliance against the demon race, rows of tents stretching for miles, war banners of five sects fluttering in the wind, armored cultivators patrolling, a wounded soldiers' tent with dim lanterns glowing, a strategy command tent with war maps inside, smoldering campfires, tense solemn atmosphere at the front line"
+    },
+    "magic-abyss": {
+      "name": "魔渊",
+      "prompt": "a bottomless rift valley in the western land of the cultivation world, demonic qi surging like a tide from the depths, glowing seal cracks covering the cliff walls, dark purple lightning flickering in the abyss, jagged rocks stained with ancient demon blood, ominous swirling mist, a chasm of dread and ancient evil, oppressive terrifying atmosphere"
+    },
+    "sect-council": {
+      "name": "宗门议事殿",
+      "prompt": "a solemn council hall of an immortal sect, five colored sect banners hanging on the walls, elder seats arranged in a circle, a central sect master throne on a raised dais, ancient wooden pillars carved with coiling dragons, dim golden lanterns casting long shadows, a polished stone floor with arcane formations inlaid, weighty atmosphere of sect power and decision"
+    },
+    "sealing-array": {
+      "name": "封印阵",
+      "prompt": "a colossal sealing formation array suppressing demonic qi, ancient glowing runes inscribed in a vast circular pattern on the ground, spiritual light pillars shooting up from the array eyes, glowing sigils rotating slowly, cracks spreading across the seal, dark demonic qi leaking from the edges, ancient stone pillars around the perimeter, a tense atmosphere of a fragile seal"
+    },
+    "five-sect-battlefield": {
+      "name": "五宗决战场",
+      "prompt": "a vast battlefield for the final war of five sects, five colored banners planted in five directions of the field, war intent rising to the sky, scorched earth with craters from magical combat, an ancient ascension platform ruin in the center of the battlefield, broken weapons scattered, dark clouds gathering, the stage of a world-deciding clash, epic atmosphere"
+    },
+    "heaven-tribulation-altar": {
+      "name": "天劫祭坛",
+      "prompt": "an ancient heavenly tribulation altar at the center of the continent, perpetual thunderclouds gathering overhead, heaven's might pressing down suffocatingly, a primitive altar with ancient formation patterns activating the tribulation, lightning scars and burn marks on the stone steps from cultivators who perished across ten thousand years, crackling lightning in the air, awe-inspiring atmosphere of heavenly judgment"
+    },
+    "ascension-platform": {
+      "name": "飞升台",
+      "prompt": "an ancient ascension altar at the heart of the continent, immortal light flowing eternally across the surface, ancient runes inscribed recording the method of ascension, a beam of golden light shooting toward the heavens, surrounding clouds parting in reverence, ancient stone pillars carved with immortal sages, sacred waiting atmosphere of the only path to immortality"
+    },
+    "immortal-gate": {
+      "name": "仙门",
+      "prompt": "the final immortal gate at the end of the ascension path, golden light radiating ten thousand zhang illuminating heaven and earth, the entrance to the immortal realm and the destination of ascension, a towering gate of pure light with ancient immortal characters above, swirling clouds of immortality around the gate, radiant transcendent atmosphere, the threshold between mortal and immortal"
+    }
+  }
+}

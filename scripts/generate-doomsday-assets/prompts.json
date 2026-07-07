@@ -1,0 +1,53 @@
+{
+  "_style_suffix": "solid pure green screen background, chroma key #00FF00, flat even green background, no gradient, no shadow on background, full body character portrait, standing straight, facing forward, arms relaxed, centered composition, semi-realistic anime style, post-apocalyptic theme, muted desaturated palette, detailed character design, high quality, no text, no border, no frame",
+  "npcs": {
+    "linshen": {
+      "name": "林深",
+      "prompt": "a male military doctor in his early thirties, short neat black hair, gold-rimmed glasses, calm but exhausted eyes with faint dark circles, wearing a grayish-white doctor's coat over a dark shirt, a stopped pocket watch pinned on the left chest, slender fingers with small scars, slight tired posture, serious expression"
+    },
+    "suqing": {
+      "name": "苏晴",
+      "prompt": "a female search team captain around 27, neat short black hair, sharp determined eyes, tightly pursed lips, wearing a blood-stained olive work jacket over a black tank top and cargo pants, a modified hunting knife and an empty-magazine pistol on her belt, a men's digital watch on her left wrist, confident stance"
+    },
+    "laozhou": {
+      "name": "老周",
+      "prompt": "a male veteran in his early fifties, gray short hair, an old scar running from brow to jaw, weathered face, wearing a faded camouflage jacket over a gray shirt, slightly lame left leg, holding a hand-rolled cigarette, a polished dagger hanging on his belt, weary cynical expression"
+    },
+    "xiaolu": {
+      "name": "小鹿",
+      "prompt": "a petite female scout at 18 years old, twin tails, lively bright eyes, cheerful smile, wearing an oversized men's red windbreaker that reaches her thighs, a waist pouch full of smoke bombs and signal flares, a short crossbow on her belt, energetic alert pose"
+    },
+    "lie": {
+      "name": "烈",
+      "prompt": "a tall male vice commander around 26, 185cm tall, buzz cut, sharp angular jawline, wearing a blood-stained black tactical vest over a gray long-sleeve shirt and military pants, a wolf-fang armband on his left shoulder, a desert eagle pistol holstered on his waist, bold aggressive stance"
+    },
+    "lingshuang": {
+      "name": "凌霜",
+      "prompt": "a female intelligence officer around 28, long black hair tied in a low ponytail, cold exquisite facial features, sharp gaze, wearing a black high-neck tight bodysuit and tactical pants, three throwing knives sheathed on her waist, a plain silver ring on her left ring finger, aloof confident posture"
+    },
+    "alpha": {
+      "name": "阿尔法",
+      "prompt": "a male scientist in his early forties, messy unkempt hair, round reading glasses, fanatical intense eyes, wearing a white lab coat over a wrinkled shirt, three colored marker pens and a syringe in the coat pocket, yellowish stained fingers, gesturing hands, obsessed expression"
+    },
+    "mila": {
+      "name": "米拉",
+      "prompt": "a female negotiator around 32, chestnut long hair in a low bun, fine lines at eye corners, gentle tired smile, wearing a tailored old burgundy suit jacket over a white blouse and pencil skirt, a voice recorder and a leather notebook on her waist, composed elegant stance"
+    },
+    "yuanzhang": {
+      "name": "院长",
+      "prompt": "a male chief scientist in his fifties, silver hair neatly combed back, half-frame glasses, calm cold nearly indifferent eyes, wearing a white Ark-style researcher coat with an Ark emblem embroidered on the left chest, slender fingers with calluses from holding test tubes, upright rigid posture"
+    },
+    "lin": {
+      "name": "凛",
+      "prompt": "a female elite squad captain at 27, shoulder-length black hair, knife-like sharp eyes, a thin long scar on her left cheek, wearing a black Ark Morning Star tactical combat suit, two standard pistols on her waist, a military thorn on her back, an Ark mark tattoo on the side of her neck, rigid salute-like posture"
+    },
+    "shenfu": {
+      "name": "神父",
+      "prompt": "a male religious leader around sixty, white hair draped over the shoulders, gaunt face, deep-set but sharp eyes, wearing a black robe embroidered with gold thread, a cross pendant hanging on his chest, slow turning posture, mysterious authoritative presence"
+    },
+    "ada": {
+      "name": "艾达",
+      "prompt": "a female mutant sympathizer around 25, barefoot, long disheveled hair covering half her face, ethereal empty eyes, wearing a white dress stained with gray dirt and dark red blood, healed bite marks on her wrists, standing gently with hand slightly raised, dreamy gentle expression"
+    }
+  }
+}
